@@ -180,14 +180,18 @@ Glue it themself - don't do it its stupid - what is the thingy that person glued
 
 The emergency landing header should keep the focus on urgent patient needs, featuring the logo on the left and a simple nav with a “Call Now” button and a secondary “For Dentists” link. On the dentist landing, the header flips the focus—logo on the left, a “Client? Go to Main Site” link on the right, keeping the interface minimal and clearly signaling the audience shift.
 
+# cerdent.pl/
+
 ## HERO
 
 Headline:
-V1: Denture Broken? Get It Repaired in Under 90 Minutes
-V2: Broken Denture? Get It Repaired in Under 90 Minutes — 24/7 in Warsaw
+Broken Denture? Get It Repaired in Under 90 Minutes — 24/7 in Warsaw
 
 Description:
 Open 24/7 in Warsaw. Same-day repairs using precise digital and traditional techniques. Quick, reliable, quality-focused service.
+
+Social proof:
+Since 2007 | 20+ Years Experience | Certified Prosthetics Specialist
 
 CTA: Call Now: +(44) 813-22-38 | For Dentists →
 
@@ -204,6 +208,9 @@ Headline: Same-Day Emergency Denture Repairs You Can Trust
 
 ## Process
 
+Headline: How it works
+Description: Repair process for the same day
+
 Step 1: Call Us Anytime
 Reach us 24/7 by phone. Tell us about your broken denture and get immediate guidance.
 
@@ -215,8 +222,92 @@ Pick up your fully repaired denture in under 90 minutes. Fast, reliable, and rea
 
 ## Testimonials
 
+https://www.google.com/search?hl=pl&sxsrf=AE3TifPavVGNnUkJ_w0AT49voI9HzkBkhA:1755686678777&kgmid=/g/11b7fpzb3j&q=Naprawa+Protez+Pogotowie+Protetyczne+Warszawa&shndl=30&shem=lsptbl1&kgs=9d4201963e78ed7e#lrd=0x471ecc712af20c19:0x6507dfcc08503a70,1,,,,
+
+Headline: What Our Patients Say
+
+**Marek**
+_"Bardzo miły kontakt, fachowo naprawiona proteza i **święta uratowane**, polecam z całego serca."_
+
+**Bożena Krejszeff**  
+_"Właściciel przemiły, bardzo uczynny, niesamowicie otwarty na potrzeby klienta. **Super kontakt telefoniczny** w celu uzyskania wstępnej porady."_
+
+**Tomek Michalak**  
+_"Czekałem u technika w warsztacie, **godzinka minęła błyskawicznie** w bardzo miłej atmosferze. Fachowiec zna się na rzeczy, doradzi podpowie. Pozdrawiam i wielkie dzięki!"_
+
+**Dorota Lach**  
+_"Bardzo profesjonalnie i w miłej atmosferze, **szybka naprawa** i nie bardzo drogo. Polecam."_
+
+**Dominik Rybka**  
+_"Szczerze polecam. **Ekspresowa i profesjonalna pomoc**."_
+
+**Bogumiła Rowicka**  
+_"Nowa super usługa, **sprawnie, miło i profesjonalnie**. Polecam gorąco."_
+
+**Teresa Jank**
+_Bardzo dziękuję Panie Wacławie_
+
+## FAQ
+
+Q: How fast can my denture be repaired?
+A: Most repairs are done the same day, often under 90 minutes from the moment you bring them in.
+
+Q: Do I need an appointment?
+A: While we are open 24/7, we recommend calling first to ensure minimal wait time.
+
+Q: How much does a denture repair cost?
+A: Prices depend on the type of denture and the complexity of the repair. Weekend or after-hours repairs may have a slightly higher rate. Please call us for a personalized quote — we’ll provide exact pricing and confirm same-day service availability.
+
+Q: Do you also work on holidays?
+A: It depends on availability, but it’s best to call first so we can confirm and arrange your repair.
+
+Q: I called and got no reply — are you really open 24/7?
+A: Occasionally, calls may not be answered immediately if we’re assisting another patient or handling a repair. Please leave a message or try again, and we’ll get back to you as quickly as possible.
+
 ## CTA
+
+Same-day repairs under 90 minutes — 24/7 in Warsaw
+📞 Call us now: +(44) 813-22-38
+Or for dentists → [special dentist line / form]
 
 ## Location & Access
 
-## END CTA
+📍 Full address here (with map embed)
+🚇 5 minutes from Metro [station name]
+🚗 Easy parking nearby
+
+NOTES
+Make the person type "find direction", which has the location already set for maps, and then the user either types their current location or via gps
+Have a constant "Call Now Button" on mobile follow the user
+Maybe have a "location" button too or something, on how to get there, not sure, perhaps have a new page "location" that exactly tells patients where to go, how to get there, what bus to get, what the street is called from tram etc...
+
+# cerdent.pl/lokacja
+
+Inspiration:
+https://dribbble.com/shots/4158663-Where-to-use
+
+Have pictures of the road and studio in day and night mode - since things look different, nice little UX (user can easily toggle this)
+List public transport: metro station name, tram name, bus, its numbers and street - perhaps also what to get from city center main
+Mention where to park
+Have google maps but also have "Get Direction" - opens google maps with the user current location and studio cordinates already in
+Studio adres and number
+
+
+
+
+Font Family:
+Rajdhani - Logo
+Poppins
+Montserrat
+Orbitron
+Work Sans
+Saira
+Manrope
+
+---
+
+PHONE CALL STRATEGY
+
+Have a script for some parts so it builds trust, especially for dneitst
+
+Instead of telling clients: "I just cameback from my workstation" - say: "Currently busy and won't be able to take your work till today at 10am"

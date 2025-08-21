@@ -35,13 +35,13 @@ function Star() {
 
 function TestimonialCardRated({ item: { name, title, image, quote } }: { item: ITestimonial }) {
   return (
-    <figure className="border border-[#2f2f2f] text-gray-900 rounded-lg bg-white mb-4 break-inside-avoid">
-      <div className="p-8">
+    <figure className="border border-[#d9d9d9] text-gray-900 rounded-lg bg-white mb-4 break-inside-avoid">
+      <div className="px-4 py-6">
         <figcaption className="flex flex-col justify-between lg:flex-row items-center space-x-2">
 
           <div className="flex">
-            <div className="overflow-hidden rounded-full border border-gray-50 w-12 h-12 min-w-12">
-              <Image src={`/images/testimonials/${image}`} alt={`Testimonial avatar of ${name}`} width={48} height={48} className="object-cover w-full h-full" />
+            <div className="overflow-hidden rounded-full w-14 h-14 min-w-12">
+              <Image src={`/images/testimonials/${image}`} alt={`Testimonial avatar of ${name}`} width={48} height={48} className="p-2 object-cover w-full h-full" />
             </div>
             <div className="text-center lg:text-left">
               <h3 className="font-bold font-roboto text-md">{name}</h3>
@@ -50,7 +50,34 @@ function TestimonialCardRated({ item: { name, title, image, quote } }: { item: I
           </div>
 
           <div>
-            G
+            <svg
+              className="size-5"
+              xmlns='http://www.w3.org/2000/svg'
+              xmlnsXlink='http://www.w3.org/1999/xlink'
+              viewBox='0 0 48 48'
+            >
+              <defs>
+                <path
+                  id='a'
+                  d='M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4'
+                ></path>
+              </defs>
+              <clipPath id='b'>
+                <use xlinkHref='#a' overflow='visible'></use>
+              </clipPath>
+              <path fill='#FBBC05' d='M0 37V11l17 13z' clipPath='url(#b)'></path>
+              <path
+                fill='#EA4335'
+                d='m0 11 17 13 7-6.1L48 14V0H0z'
+                clipPath='url(#b)'
+              ></path>
+              <path
+                fill='#34A853'
+                d='m0 37 30-23 7.9 1L48 0v48H0z'
+                clipPath='url(#b)'
+              ></path>
+              <path fill='#4285F4' d='M48 48 17 24l-4-3 35-10z' clipPath='url(#b)'></path>
+            </svg>
           </div>
         </figcaption>
         <div className="flex py-4 justify-center lg:justify-start">

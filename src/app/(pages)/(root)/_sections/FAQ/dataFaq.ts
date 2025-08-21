@@ -5,7 +5,7 @@ const dataFqa = [
   },
   {
     "question": "Do I need an appointment?",
-    "answer": "While we are open 24/7, we recommend calling first to ensure minimal wait time."
+    "answer": "While we are open 24/7, please call first before coming at: 509 828 545"
   },
   {
     "question": "How much does a denture repair cost?",

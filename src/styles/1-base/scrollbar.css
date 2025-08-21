@@ -1,0 +1,40 @@
+/* ============================================================================
+ * # Scrollbar
+ * ============================================================================ */
+
+.scrollbar {
+  font-size: 100%;
+
+  &::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 0 none #ffffff;
+    border-radius: 50px;
+
+    &:hover {
+      background: #ececec;
+    }
+
+    &:active {
+      background: #ffffff;
+    }
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #666666;
+    border: 0 none #ffffff;
+    border-radius: 0;
+
+    &:hover {
+      background: #666666;
+    }
+  }
+
+  &::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}

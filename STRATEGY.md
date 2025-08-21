@@ -137,6 +137,8 @@ Description: Broken denture or damaged prosthetic? We provide fast, precise repa
 
 ## Hero
 
+4.8/5 Google
+
 Headline: Broken denture? Call now — repairs same day in under 90 minutes.
 Description: Available 24/7 by phone in Warsaw.
 CTA: Press here to call +(44) 813-22-38
@@ -188,7 +190,7 @@ Headline:
 Broken Denture? Get It Repaired in Under 90 Minutes — 24/7 in Warsaw
 
 Description:
-Open 24/7 in Warsaw. Same-day repairs using precise digital and traditional techniques. Quick, reliable, quality-focused service.
+Eat, smile, travel — worry-free, today. Same-day repairs using precise digital and traditional techniques. Quick quality-focused service.
 
 Social proof:
 Since 2007 | 20+ Years Experience | Certified Prosthetics Specialist
@@ -219,6 +221,28 @@ Bring your denture to our Warsaw lab. Our experts use precise digital and tradit
 
 Step 3: Get Your Denture Back Same Day
 Pick up your fully repaired denture in under 90 minutes. Fast, reliable, and ready to use.
+
+OR
+
+Step 1: Call Us Anytime
+Reach us 24/7 by phone Warsaw team and get immediate guidance.
+
+Step 2: Bring Your Denture In
+We repair it in our certified lab using advanced digital and traditional methods.
+
+Step 3: Pick It Up Same Day
+Your denture is ready in under 90 minutes — fast, professional, guaranteed.
+
+OR
+
+Step 1: Call Us 24/7
+Reach our Warsaw team anytime by phone for immediate guidance on your broken denture.
+
+Step 2: Bring Your Denture In
+Drop it off at our certified lab, where experts use advanced digital and traditional techniques.
+
+Step 3: Pick Up Same Day
+Get your fully repaired denture in under 90 minutes — fast, reliable, guaranteed.
 
 ## Testimonials
 

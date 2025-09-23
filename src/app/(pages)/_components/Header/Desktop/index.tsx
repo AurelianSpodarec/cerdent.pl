@@ -19,7 +19,7 @@ function HeaderDesktop() {
           <MenuItem key={item.link} name={item.name} link={item.link} />
         ))}
       </nav>
-      <button className="bg-white rounded-sm text-black font-semibold py-2 px-4">Tap To Call 509 828 545</button>
+      <button className="bg-white rounded-sm text-black font-semibold py-2 px-4">Call 509 828 545</button>
     </div>
   );
 }

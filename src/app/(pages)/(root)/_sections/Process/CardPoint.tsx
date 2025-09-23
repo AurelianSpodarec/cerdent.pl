@@ -4,7 +4,7 @@ function CardPoint({ item, index }: { item: ICardPoint, index: number }) {
   return (
     <div className="relative text-center flex-col justify-center align-center items-center">
       
-      <div className="flex items-center justify-center bg-[#e1c0537a] bg-opacity-20 text-[#c18c38] w-12 h-12 rounded-full mx-auto mb-6">
+      <div className="flex items-center justify-center bg-black bg-opacity-20 text-white w-12 h-12 rounded-full mx-auto mb-6">
         <span className="font-bold font-play-fair text-3xl -mt-1">{index + 1}</span>
       </div>
 

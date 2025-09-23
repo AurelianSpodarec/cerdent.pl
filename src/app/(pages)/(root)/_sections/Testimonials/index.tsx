@@ -2,7 +2,6 @@ import { dataTestimonials } from "./dataTestimonials";
 
 import Container from "@/components/_layout/Container";
 import Section from "@/components/_layout/Section";
-import PageHeader from "@/components/molecules/PageHeader";
 import TestimonialCardRated from "./TestimonialCard";
 
 function LaurelWreath() {
@@ -32,13 +31,12 @@ function SectionTestimonials() {
     <Section id="testimonials" color="clean" size="lg">
       <Container>
 
-        <PageHeader
-          className="block"
-          kicker="In Triumph"
-          title="Testimonials"
-        />
-        Opinie Na Google
-        4.8/5 - stars
+        <header className="text-center mb-20">
+          <span>What other patients say</span>
+          <h2 className="text-5xl font-semibold">Testimonials</h2>
+          4.8/5 - stars
+        </header>
+
         <div className="masonry-container columns-1 md:columns-2 lg:columns-3 gap-4">
           {dataTestimonials.map((testimonial, index) => {
             return <TestimonialCardRated item={testimonial} key={index} />

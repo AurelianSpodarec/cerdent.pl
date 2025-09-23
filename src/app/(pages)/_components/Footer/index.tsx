@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function WebFooter() {
   return (
-    <footer className="bg-[#262626] py-6">
+    <footer className="bg-black py-6">
       <div>
 
         <div className="flex flex-col lg:flex-row justify-between items-center">
@@ -26,7 +26,8 @@ function WebFooter() {
           <p className="text-white text-sm">&copy; CerDent 2004-{new Date().getFullYear()}. All rights reserved</p>
 
           <nav className="flex flex-col lg:flex-row text-white text-sm lg:space-x-7 text-center">
-        
+            <Link href="#">Privacy</Link>
+            <Link href="#">Cookies</Link>
           </nav>
         </div>
 

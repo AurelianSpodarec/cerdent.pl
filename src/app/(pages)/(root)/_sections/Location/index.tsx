@@ -1,6 +1,16 @@
 
 'use client'
 
+
+// Address: 1 Ludwik 
+// Domofon: 
+// Get GPS Directions 
+
+// Pictures of inside and stairs 
+// Landmarks
+
+
+
 function SectionLocation() {
   const destination = { lat: 52.2297, lng: 21.0122 }; // Warsaw lab
 
@@ -21,16 +31,16 @@ function SectionLocation() {
 
 
   return (
-    <section className="my-10 px-4 text-center">
-      <h2 className="text-2xl font-bold mb-4">📍 Find Us in Warsaw</h2>
-      <button
+    <section className="text-center w-full">
+      <h2 className="text-4xl font-bold mb-4">Directions</h2>
+      {/* <button
         onClick={handleClick}
         className="bg-blue-500 text-white p-3 rounded mb-4"
       >
         Get Directions
-      </button>
+      </button> */}
 
-      <div className="w-full max-w-xl mx-auto h-64 sm:h-80">
+      <div className="w-full mx-auto h-[500px]">
         <iframe
           className="w-full h-full rounded shadow"
           src="https://www.google.com/maps/embed?pb=!4v1755812607674!6m8!1m7!1spsASP7K_smi6KXSrxYE3_w!2m2!1d52.23015971040556!2d20.96144928195338!3f132.38625073383386!4f0.15855890117447302!5f0.7820865974627469"

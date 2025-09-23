@@ -5,7 +5,7 @@ const dataFqa = [
   },
   {
     "question": "Do I need an appointment?",
-    "answer": "While we are open 24/7, please call first before coming at: 509 828 545"
+    "answer": "Yes. While we are open 24/7, please call first before coming."
   },
   {
     "question": "How much does a denture repair cost?",
@@ -13,11 +13,11 @@ const dataFqa = [
   },
   {
     "question": "Do you also work on holidays?",
-    "answer": "It depends on availability, but it’s best to call first so we can confirm and arrange your repair."
+    "answer": "Holiday repairs are possible, but availability is limited. Please call us first to confirm and reserve your spot."
   },
   {
     "question": "I called and got no reply — are you really open 24/7?",
-    "answer": "Occasionally, calls may not be answered immediately if we’re assisting another patient or handling a repair. Please leave a message or try again, and we’ll get back to you as quickly as possible."
+    "answer": "We’re open 24/7, but sometimes we’re vere busy. Please leave a message or try again, and we’ll call you back ASAP."
   }
 ];
 

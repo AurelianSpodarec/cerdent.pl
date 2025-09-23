@@ -10,7 +10,7 @@ function MenuItem({ name, link }: IMenuItem) {
 
 function HeaderDesktop() {
   return (
-    <div className="w-full items-center justify-between h-full px-8 hidden lg:flex">
+    <div className="w-full items-center justify-between h-full pl-8 pr-2 hidden lg:flex">
       <Link href={WebsiteRoutes.ROOT} className="uppercase font-bold text-3xl">
         CerDent
       </Link>
@@ -19,7 +19,7 @@ function HeaderDesktop() {
           <MenuItem key={item.link} name={item.name} link={item.link} />
         ))}
       </nav>
-      <button className="bg-white rounded-sm text-black font-semibold py-2 px-4">Call 509 828 545</button>
+      <Link href="tel:509 828 545" className="bg-white rounded-sm text-black font-semibold py-2 px-4">Call 509 828 545</Link>
     </div>
   );
 }

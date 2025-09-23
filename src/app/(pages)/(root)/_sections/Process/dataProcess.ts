@@ -1,14 +1,14 @@
 export const dataProcess = [
   {
-    title: "Make Appointment",
-    desc: "Our Warsaw team is available 24/7—call now for instant guidance.",
+    title: "Call Us First",
+    desc: "Tell us what happened or send a photo for a quick assessment, and we’ll schedule your appointment."
   },
   {
     title: "Bring Your Denture In",
-    desc: "Drop it off at our certified lab. Our experts use modern digital and traditional techniques.",
+    desc: "Drop it off at our certified lab, where our experts quickly assess and start repairing it with precision."
   },
   {
     title: "Pick Up Same Day",
-    desc: "Get your fully repaired denture in under 90 minutes — fast, reliable, guaranteed.",
-  },
+    desc: "Collect your fully repaired denture in under 90 minutes—fast, precise, and guaranteed to fit."
+  }
 ];

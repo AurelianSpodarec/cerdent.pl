@@ -1,0 +1,11 @@
+/* ============================================================================ 
+* # Variables: Semantics 
+* ============================================================================= */
+
+@theme {
+  --font-heading: var(--font-montserrat);
+  --font-body: var(--font-roboto);
+  --font-logo: var(--font-rajdhani);
+
+  --color-primary: #c4955d;
+}

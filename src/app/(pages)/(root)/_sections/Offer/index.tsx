@@ -1,21 +1,34 @@
-import PageHeader from "@/components/molecules/PageHeader";
+import Section from "@/components/_layout/Section";
+import { dataBenefits } from "./dataBenefits";
 
 function SectionOffer() {
   return (
-    <div>
-      <PageHeader
-        kicker="We repair all dental prosthetics"
-        title="Same-Day Emergency Denture Repairs"
-        subheader="Broken denture? Repaired in under 90 minutes — guaranteed."
-      />
+    <Section>
 
-      🍕 Chipped Eating? Enjoy meals again today.
-      🦷 Big Meeting Soon? Smile confidently without delay.
-      😬 Loose or Painful? Comfort restored quickly.
-      🏠 Home Accident? Get it fixed fast, no stress.
-      ✈️ Travel Emergency? Repairs wherever you are.
-      👶 Child or Pet Damage? Denture restored, hassle-free.
-    </div>
+      <header className="text-center mb-20">
+        <h2>Why Choose CerDent?</h2>
+      </header>
+
+      <div className="container max-w-[1200px] mx-auto">
+        <div className="grid grid-cols-3 gap-6">
+          {dataBenefits.map((item) => {
+            return (
+              <div className="border border-[#f0f0f0] rounded  bg-[#f9fafc] text-center">
+                <div className="flex justify-center items-center mt-12">
+                  <div className="w-[160px]">
+                    <img src={item.icon} />
+                  </div>
+                </div>
+                <div className="p-10 pb-16">
+                  <h3 className="text-2xl font-medium mb-2 text-[#685524]">{item.title}</h3>
+                  <p className="text-[#333] px-2">{item.desc}</p>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+    </Section>
   );
 }
 

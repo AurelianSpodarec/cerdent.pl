@@ -1,8 +1,10 @@
 export enum WebsiteRoutes {
   ROOT = "/",
-  ABOUT = "/about",
+  OFFER = "#offer",
+  TESTIMONIALS = "#testimonials",
+  PROCESS = "#process",
+  FAQ = "#FAQ",
   SERVICES = "/services",
-  PROCESS = "/process",
   WORK = "/projects",
-  CONTACT = "/contact"
+  // CONTACT = "/contact",
 }

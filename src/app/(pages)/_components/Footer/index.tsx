@@ -2,34 +2,99 @@ import Link from "next/link";
 
 function WebFooter() {
   return (
-    <footer className="bg-black py-6">
-      <div>
+    <footer className="bg-white py-6 group/row relative isolate pt-2">
+      
 
-        <div className="flex flex-col lg:flex-row justify-between items-center">
-          <Link href="/" className="text-white text-3xl font-bold uppercase font-lato">CerDent</Link>
+      {/* <div aria-hidden="true" className="absolute inset-y-0 left-1/2 -z-10 w-screen -translate-x-1/2"><div className="absolute inset-x-0 top-0 border-t border-black/5"></div><div className="absolute inset-x-0 top-2 border-t border-black/5"></div><div className="absolute inset-x-0 bottom-0 hidden border-b border-black/5 group-last/row:block"></div><div className="absolute inset-x-0 bottom-2 hidden border-b border-black/5 group-last/row:block"></div></div> */}
+      <div className="container mx-auto w-[1400px]">
 
-          <div className="flex space-x-7 text-white">
-            <a href="tel:0000" className="flex items-center space-x-4">
-              <svg className="w-4 h-4" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path></svg>
-              <span className="text-lg font-roboto-slab">Mobile</span>
-            </a>
-            <a href="mailto:aurelianxspodarec@gmail.com" className="flex items-center space-x-4">
-              <svg className="w-5 h-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path></svg>
-              <span className="text-lg font-roboto-slab">Email Me</span>
-            </a>
+        <div className="flex flex-col lg:flex-row justify-between items-center mb-10">
+
+          <Link href="/" className="text-[#333] flex flex-col">
+
+            <div className="py-3 group/item relative">
+              {/* <svg
+                viewBox="0 0 15 15"
+                aria-hidden="true"
+                className="hidden group-first/item:block absolute size-[15px] fill-black/10 -top-2 -left-2"
+              >
+                <path d="M8 0H7V7H0V8H7V15H8V8H15V7H8V0Z" />
+              </svg>
+              <svg
+                viewBox="0 0 15 15"
+                aria-hidden="true"
+                className="absolute size-[15px] fill-black/10 -top-2 -right-2"
+              >
+                <path d="M8 0H7V7H0V8H7V15H8V8H15V7H8V0Z" />
+              </svg>
+              <svg
+                viewBox="0 0 15 15"
+                aria-hidden="true"
+                className="hidden group-first/item:group-last/row:block absolute size-[15px] fill-black/10 -bottom-2 -left-2"
+              >
+                <path d="M8 0H7V7H0V8H7V15H8V8H15V7H8V0Z" />
+              </svg>
+              <svg
+                viewBox="0 0 15 15"
+                aria-hidden="true"
+                className="hidden group-last/row:block absolute size-[15px] fill-black/10 -bottom-2 -right-2"
+              >
+                <path d="M8 0H7V7H0V8H7V15H8V8H15V7H8V0Z" />
+              </svg> */}
+              <div className="text-sm/6 text-gray-950 flex flex-col">
+                <span className="font-logo text-4xl font-bold uppercase leading-6">CerDent</span>
+                <span className="font-logo">Labolatorium Prototyczne</span>
+              </div>
+            </div>
+
+            {/* <span className="font-logo text-4xl font-bold uppercase">CerDent</span> */}
+            {/* <span className="font-logo">Labolatorium Prototyczne</span> */}
+          </Link>
+
+          <div className="flex space-x-7 text-[#333]">
+ 
+            <div>
+              Email: info@cerdent.pl
+            </div>
+            <div>
+              Telefon: 030234223
+            </div>
           </div>
         </div>
 
-        <hr className="my-6" />
+        FaceBook
+        Instagram
+        X
+<div>
 
-        <div className="flex flex-col lg:flex-row justify-between items-center">
-          <p className="text-white text-sm">&copy; CerDent 2004-{new Date().getFullYear()}. All rights reserved</p>
+        Polityka Prywatonisci
+        Cookies
+</div>
 
-          <nav className="flex flex-col lg:flex-row text-white text-sm lg:space-x-7 text-center">
-            <Link href="#">Privacy</Link>
+<div>
+  Dla Dentystow
+</div>
+
+        {/* <hr className="my-6 bg-[#333]/30" /> */}
+
+        {/* <div className="relative flex flex-col lg:flex-row justify-between items-center flex justify-between group/row relative isolate pt-[calc(--spacing(2)+1px)] last:pb-[calc(--spacing(2)+1px)]">
+          <div aria-hidden="true" className="absolute inset-y-0 left-1/2 -z-10 w-screen -translate-x-1/2" ><div className="absolute inset-x-0 top-0 border-t border-black/5"></div><div className="absolute inset-x-0 top-2 border-t border-black/5"></div><div className="absolute inset-x-0 bottom-0 hidden border-b border-black/5 group-last/row:block"></div><div className="absolute inset-x-0 bottom-2 hidden border-b border-black/5 group-last/row:block"></div></div>
+          <p className="text-[#333] text-sm">&copy; CerDent 2004-{new Date().getFullYear()}. All rights reserved</p>
+
+          1 Ludwika (dr6)
+          Warszawa
+          (konieczne umawianie sie)
+
+          <span>X</span>
+
+          <nav className="flex flex-col lg:flex-row text-[#333] text-sm lg:space-x-7 text-center">
+            <Link href="#">Polityka Prywatnosci</Link>
             <Link href="#">Cookies</Link>
+
+
+
           </nav>
-        </div>
+        </div> */}
 
       </div>
     </footer>

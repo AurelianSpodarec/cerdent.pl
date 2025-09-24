@@ -1,3 +1,22 @@
 /* ============================================================================
  * # Cheat - Hot fixed and quick code; needs cleaning up before: ___ date
  * ============================================================================ */
+
+
+ h1, h2 {
+  @apply font-logo;
+  color: #333;
+ }
+
+
+ h1 {
+  @apply text-8xl tracking-tighter;
+ }
+
+ h2 {
+  @apply text-6xl font-logo font-medium;
+ }
+
+p {
+  color: #333;
+}

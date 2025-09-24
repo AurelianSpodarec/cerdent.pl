@@ -11,7 +11,7 @@ function SectionFAQ() {
 
         <header className="text-center mb-20">
           <span>FAQ</span>
-          <h2 className="text-5xl font-semibold">Questions? Answers</h2>
+          <h2>Questions? Answers</h2>
         </header>
         <AccordionBasic type="single" data={dataFaq} />
       </Container>

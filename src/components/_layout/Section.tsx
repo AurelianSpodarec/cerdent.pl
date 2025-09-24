@@ -13,13 +13,15 @@ function Section({ id, className, style, children, size = "md" }: ISectionProps)
     clean: "",
     xs: "py-8",
     sm: "py-16",
-    md: "py-20",
+    md: "py-28",
     lg: "py-24",
     xl: "py-40"
   };
 
+  // primary color: #fff
+  // Secondry color: #fbfbfb
   return (
-    <section id={id} className={`${className} ${sizes[size]} bg-white`} style={style}>
+    <section id={id} className={`${className} ${sizes[size]}`} style={style}>
       {children}
     </section>
   )

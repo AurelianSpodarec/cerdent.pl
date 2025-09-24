@@ -32,7 +32,7 @@ function SectionLocation() {
 
   return (
     <section className="text-center w-full">
-      <h2 className="text-4xl font-bold mb-4">Directions</h2>
+      <h2>Directions</h2>
       {/* <button
         onClick={handleClick}
         className="bg-blue-500 text-white p-3 rounded mb-4"

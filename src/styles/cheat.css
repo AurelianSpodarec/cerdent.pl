@@ -3,20 +3,25 @@
  * ============================================================================ */
 
 
- h1, h2 {
+h1,
+h2 {
   @apply font-logo;
   color: #333;
- }
+}
 
 
- h1 {
+h1 {
   @apply text-8xl tracking-tighter;
- }
+}
 
- h2 {
+h2 {
   @apply text-6xl font-logo font-medium;
- }
+}
 
 p {
   color: #333;
+}
+
+.header-shadow {
+  box-shadow: rgba(34, 42, 53, 0.06) 0px 0px 24px, rgba(0, 0, 0, 0.05) 0px 1px 1px, rgba(34, 42, 53, 0.04) 0px 0px 0px 1px, rgba(34, 42, 53, 0.08) 0px 0px 4px, rgba(47, 48, 55, 0.05) 0px 16px 68px, rgba(255, 255, 255, 0.1) 0px 1px 0px inset;
 }

@@ -4,7 +4,7 @@
 
 @theme {
   --font-heading: var(--font-montserrat);
-  --font-body: var(--font-roboto);
+  --font-body: var(--font-montserrat);
   --font-logo: var(--font-rajdhani);
 
   --color-primary: #c4955d;

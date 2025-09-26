@@ -3,8 +3,7 @@ export enum WebsiteRoutes {
   OFFER = "#offer",
   TESTIMONIALS = "#testimonials",
   PROCESS = "#process",
-  FAQ = "#FAQ",
+  FAQ = "#faq",
   SERVICES = "/services",
-  WORK = "/projects",
-  // CONTACT = "/contact",
+  WORK = "/projects"
 }

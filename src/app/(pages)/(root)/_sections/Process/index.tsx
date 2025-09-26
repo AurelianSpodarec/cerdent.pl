@@ -5,7 +5,7 @@ import Section from "@/components/_layout/Section"
 
 function SectionProcess() {
   return (
-    <Section className="bg-[#fbfbfb]">
+    <Section id="process" className="bg-[#fbfbfb]">
       <div>
 
         <header className="text-center mb-20">

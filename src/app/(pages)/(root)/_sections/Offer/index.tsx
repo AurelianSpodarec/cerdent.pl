@@ -3,7 +3,7 @@ import { dataBenefits } from "./dataBenefits";
 
 function SectionOffer() {
   return (
-    <Section>
+    <Section id="offer">
 
       <header className="text-center mb-20">
         <h2>Why Choose CerDent?</h2>
@@ -17,7 +17,7 @@ function SectionOffer() {
               <div key={item.title} className="border border-[#f0f0f0] rounded  bg-[#fffdfc] text-center">
                 <div className="flex justify-center items-center mt-12">
                   <div className="w-[160px]">
-                    <img src={item.icon} />
+                    <img src={item.icon} alt="" />
                   </div>
                 </div>
                 <div className="p-10 pb-16">

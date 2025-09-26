@@ -5,27 +5,43 @@ export interface IMenuItem {
   link: WebsiteRoutes
 }
 
+// const dataMenu: IMenuItem[] = [
+//   {
+//     name: "Fix my Denture",
+//     link: WebsiteRoutes.OFFER
+//   },
+//   {
+//     name: "How it Works",
+//     link: WebsiteRoutes.PROCESS
+//   },
+//   {
+//     name: "Patients Stories",
+//     link: WebsiteRoutes.TESTIMONIALS
+//   },
+//   {
+//     name: "FAQ",
+//     link: WebsiteRoutes.FAQ
+//   },
+// ]
+
 const dataMenu: IMenuItem[] = [
   {
-    name: "Fix my Denture",
+    name: "Napraw moją protezę",
     link: WebsiteRoutes.OFFER
   },
   {
-    name: "How it Works",
+    name: "Jak to działa",
     link: WebsiteRoutes.PROCESS
   },
   {
-    name: "Patients Stories",
+    name: "Historie pacjentów",
     link: WebsiteRoutes.TESTIMONIALS
   },
   {
     name: "FAQ",
     link: WebsiteRoutes.FAQ
   },
-  // {
-  //   name: "Find Us",
-  //   link: WebsiteRoutes.CONTACT
-  // }
 ]
+
 
 export default dataMenu

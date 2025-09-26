@@ -18,7 +18,13 @@ function WebFooter() {
 
           {/* Warsaw Dental Center Leończak Sp.k. (Domofon 2) */}
 
-          <p className="text-sm">&copy; CerDent 2004-{new Date().getFullYear()}. All rights reserved</p>
+          <div>
+
+            <span className="text-sm">&copy; CerDent 2004-{new Date().getFullYear()}.
+            </span>
+            {/* All rights reserved */}
+            <span>Wszelkie prawa zastrzeżone</span>
+          </div>
 
           <div className="flex space-x-7 text-[#333]">
             <Link href="mailto:info@cerdent.pl">

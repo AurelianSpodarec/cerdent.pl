@@ -23,7 +23,7 @@ function HeaderDesktop() {
           <MenuItem key={item.link} name={item.name} link={item.link} />
         ))}
       </nav>
-      <Link href="tel:509 828 545" className="bg-primary border-2 border-[#efba49] text-[#333] rounded font-semibold py-3 px-5">Call 509 828 545</Link>
+      <Link href="tel:509 828 545" className="bg-primary border-2 border-[#efba49] text-[#333] rounded font-semibold py-3 px-5">Zadzwoń 509 828 545</Link>
     </div>
   );
 }

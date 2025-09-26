@@ -29,32 +29,51 @@ function SectionHero() {
               <IconStar2 className="size-4 text-yellow-400" />
               <IconStar2 className="size-4 text-yellow-400" />
             </div>
-            <span className="text-[#333]/80 text-xs">4.8/5 reviews on Google</span>
+            <div className="text-[#333]/80 text-xs space-x-1">
+              <span>4.8/5</span>
+              {/* reviews on Google */}
+              <span>opinie w Google</span>
+            </div>
           </div>
 
-          <h1 className="font-semibold max-w-[900px] mx-auto mb-4">Broken Denture? Get It Fixed in Under 90 Minutes</h1>
-          <p className="text-lg max-w-[600px] mx-auto">Technical dental laboratory — broken denture repaired today, guaranteed. Eat, smile, and enjoy your day without worry.</p>
+          <h1 className="font-semibold max-w-[1040px] mx-auto mb-4">
+            {/* Broken Denture? Get It Fixed in Under 90 Minutes */}
+            Uszkodzona proteza? Naprawa w mniej niż 90 minut.
+          </h1>
+          <p className="text-lg max-w-[700px] mx-auto">
+            {/* Technical dental laboratory — broken denture repaired today, guaranteed. Eat, smile, and enjoy your day without worry. */}
+            Techniczny laboratorium protetyczne — naprawa uszkodzonej protezy jeszcze dziś, gwarantowane. Jedz, uśmiechaj się i ciesz dniem bez zmartwień.
+          </p>
         </div>
 
         <ul className="flex items-center align-middle py-6 space-x-4 text-sm">
           <li className="flex items-center align-center space-x-1">
             <IconCheckmark />
-            <span>Certified Laboratory</span>
+            <span>
+              {/* Certified Laboratory */}
+              Certyfikowane laboratorium
+            </span>
           </li>
           <li className="flex items-center align-center space-x-1">
             <IconCheckmark />
-            <span>Open 24/7 in Warsaw</span>
+            <span>
+              {/* Open 24/7 in Warsaw */}
+              Otwarte 24/7 w Warszawie
+            </span>
           </li>
           <li className="flex items-center align-center space-x-1">
             <IconCheckmark />
-            <span>21+ Years of Expertise</span>
+            <span>
+              {/* 21+ Years of Expertise */}
+              21+ lat doświadczenia
+            </span>
           </li>
         </ul>
 
         <div className="flex flex-col space-y-2">
           <button className="bg-primary border-2 border-[#efba49] space-x-1 text-[#333] text-lg py-4 font-semibold px-10 rounded cursor-pointer flex items-center">
             <PhoneIcon className="size-4 mr-1" />
-            <span>Call 509 828 545</span>
+            <span>Zadzwoń 509 828 545</span>
           </button>
           {/* TODO: Add This Link Once other site is done
           <button>For Dentists →</button> */}

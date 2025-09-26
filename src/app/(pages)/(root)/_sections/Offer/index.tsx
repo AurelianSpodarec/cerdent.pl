@@ -6,7 +6,11 @@ function SectionOffer() {
     <Section id="offer">
 
       <header className="text-center mb-20">
-        <h2>Why Choose CerDent?</h2>
+        <h2>
+          {/* Why Choose  */}
+          Dlaczego warto wybrać
+          CerDent?
+        </h2>
       </header>
 
       <div className="container max-w-[1200px] mx-auto">

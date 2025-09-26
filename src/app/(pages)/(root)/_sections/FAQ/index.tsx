@@ -9,9 +9,14 @@ function SectionFAQ() {
     <Section id="faq">
       <Container size="4xl">
 
-        <header className="text-center mb-20">
+        {/* <header className="text-center mb-20">
           <span>FAQ</span>
           <h2>Questions? Answers</h2>
+        </header> */}
+
+        <header className="text-center mb-20">
+          <span>FAQ</span>
+          <h2>Masz pytania? Mamy odpowiedzi</h2>
         </header>
         <AccordionBasic type="single" data={dataFaq} />
       </Container>

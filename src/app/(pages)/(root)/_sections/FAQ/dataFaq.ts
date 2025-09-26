@@ -23,7 +23,12 @@
 
 // export default dataFqa;
 
-const dataFqa = [
+export interface IFaq {
+  question: string;
+  answer: string;
+}
+
+const dataFqa:IFaq[] = [
   {
     question: "Jak szybko można naprawić moją protezę?",
     answer: "Większość napraw wykonywana jest tego samego dnia, często w mniej niż 90 minut od momentu jej dostarczenia."

@@ -1,3 +1,4 @@
+import { IFaq } from "@/app/(pages)/(root)/_sections/FAQ/dataFaq";
 import {
   Accordion,
   AccordionContent,
@@ -5,19 +6,24 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 
-function AccordionBasic({ type, data }:any) {
+function AccordionBasic({
+  type,
+  data,
+}: {
+  type: "single" | "multiple";
+  data: IFaq[];
+}) {
   return (
     <Accordion type={type} className="space-y-4">
-      {data.map((item:any, index:any) => {
-        return (
-          <AccordionItem value={item.question} key={index}>
-            <AccordionTrigger>{item.question}</AccordionTrigger>
-            <AccordionContent>{item.answer}</AccordionContent>
-          </AccordionItem>
-        )
-      })}
+      {data.map((item, index) => (
+        <AccordionItem value={item.question} key={index}>
+          <AccordionTrigger>{item.question}</AccordionTrigger>
+          <AccordionContent>{item.answer}</AccordionContent>
+        </AccordionItem>
+      ))}
     </Accordion>
   )
 }
+
 
 export default AccordionBasic

@@ -1,19 +1,23 @@
 import { ReactNode } from 'react';
 
+type ContainerSize = 'fluid' | 'xs' | 'sm' | 'base' | 'md' | 'lg' | 'xl' | '2xl' | '3xl' | '4xl' | '5xl';
+
 interface IContainerProps {
   id?: string;
   style?: object;
-  size?: string;
+  size?: ContainerSize;
   className?: string;
   children: ReactNode;
 }
 
+
 function Container({ id, style, size, className, children }: IContainerProps) {
-  const options: any = {
+
+  const options: Record<ContainerSize, string> = {
     fluid: 'max-w-none',
+    xs: 'max-w-xs',
     sm: 'max-w-sm',
     base: 'max-w-base',
-    xs: 'max-w-xs',
     md: 'max-w-md',
     lg: 'max-w-lg',
     xl: 'max-w-xl',
@@ -22,7 +26,7 @@ function Container({ id, style, size, className, children }: IContainerProps) {
     '4xl': 'max-w-4xl',
     '5xl': 'max-w-5xl',
   };
-
+  
   return (
     <div
       id={id}

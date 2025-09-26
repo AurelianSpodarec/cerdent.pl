@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
+import { georgia, montserrat, rajdhani } from "@/components/fonts";
 import "./../styles/styles.css";
 
 import WebHeader from "./(pages)/_components/Header";
 import WebFooter from "./(pages)/_components/Footer";
-import { georgia, montserrat, rajdhani } from "@/components/fonts";
 
 export const metadata: Metadata = {
   title: "CerDent – Same-Day Denture Repairs in Warsaw",

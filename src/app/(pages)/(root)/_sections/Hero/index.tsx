@@ -42,7 +42,7 @@ function SectionHero() {
           </h1>
           <p className="text-lg max-w-[700px] mx-auto">
             {/* Technical dental laboratory — broken denture repaired today, guaranteed. Eat, smile, and enjoy your day without worry. */}
-            Techniczny laboratorium protetyczne — naprawa uszkodzonej protezy jeszcze dziś, gwarantowane. Jedz, uśmiechaj się i ciesz dniem bez zmartwień.
+            Techniczny laboratorium protetyczne — naprawa uszkodzonej protezy jeszcze dziś, gwarantowane. Jedz, uśmiechaj się i ciesz się dniem już dziś.
           </p>
         </div>
 

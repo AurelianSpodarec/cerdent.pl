@@ -1,5 +1,6 @@
 import Section from "@/components/_layout/Section";
 import { dataBenefits } from "./dataBenefits";
+import Image from "next/image";
 
 function SectionOffer() {
   return (
@@ -21,7 +22,7 @@ function SectionOffer() {
               <div key={item.title} className="border border-[#f0f0f0] rounded  bg-[#fffdfc] text-center">
                 <div className="flex justify-center items-center mt-12">
                   <div className="w-[160px]">
-                    <img src={item.icon} alt="" />
+                    <Image src={item.icon} alt="" width={200} height={200} />
                   </div>
                 </div>
                 <div className="p-10 pb-16">

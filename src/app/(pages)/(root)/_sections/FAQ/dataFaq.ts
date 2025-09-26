@@ -17,7 +17,7 @@ const dataFqa = [
   },
   {
     "question": "I called and got no reply — are you really open 24/7?",
-    "answer": "We’re open 24/7, but sometimes we’re vere busy. Please leave a message or try again, and we’ll call you back ASAP."
+    "answer": "We’re open 24/7, but sometimes we’re very busy. Please leave a message or try again, and we’ll call you back ASAP."
   }
 ];
 

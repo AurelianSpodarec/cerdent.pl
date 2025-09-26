@@ -11,7 +11,8 @@ h2 {
 
 
 h1 {
-  @apply text-8xl tracking-tighter;
+  @apply text-8xl;
+  letter-spacing: -6px;
 }
 
 h2 {

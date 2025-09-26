@@ -19,7 +19,7 @@ function SectionProcess() {
           })}
         </div>
 
-        <button className="bg-primary mx-auto text-white py-3.5 font-semibold px-8 rounded-sm cursor-pointer flex items-center">
+        <button className="bg-primary mx-auto text-[#333] py-3.5 font-semibold px-8 rounded-sm cursor-pointer flex items-center">
           <PhoneIncomingIcon className="size-4 mr-1" />
           <span>Call 509 828 545</span>
         </button>

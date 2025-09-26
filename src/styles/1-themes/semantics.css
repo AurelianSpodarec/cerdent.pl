@@ -7,5 +7,6 @@
   --font-body: var(--font-montserrat);
   --font-logo: var(--font-rajdhani);
 
-  --color-primary: #c4955d;
+  /* --color-primary: #c4955d; */
+  --color-primary: #facc6b;
 }

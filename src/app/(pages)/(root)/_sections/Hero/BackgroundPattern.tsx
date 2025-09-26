@@ -7,9 +7,9 @@ function BackgroundPattern() {
         </pattern>
       </defs>
       <svg x="50%" y="-1" className="overflow-visible fill-[#dcdcdc]/20">
-        <path d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z" stroke-width="0"></path>
+        <path d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z" strokeWidth="0"></path>
       </svg>
-      <rect width="100%" height="100%" fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" stroke-width="0"></rect>
+      <rect width="100%" height="100%" fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" strokeWidth="0"></rect>
     </svg>
   );
 }

@@ -9,7 +9,7 @@ function CardPoint({ item, index }: { item: ICardPoint, index: number }) {
       </div>
 
       <div className="px-10">
-        <h3 className="text-3xl font-montserrat font-bold mb-1 font-roboto">{item.title}</h3>
+        <h3 className="text-3xl font-montserrat font-bold mb-1">{item.title}</h3>
         <p className="text-md text-[#07111D] px-6">{item.desc}</p>
       </div>
 

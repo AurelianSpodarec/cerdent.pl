@@ -12,17 +12,18 @@ function HeaderDesktop() {
   return (
     <div className="w-full items-center justify-between h-full pl-8 pr-2 hidden lg:flex">
       <Link href={WebsiteRoutes.ROOT} className="flex flex-col">
-        <span className="uppercase font-bold font-logo text-4xl text-black">
-          CerDent
-        </span>
-        {/* <span className="font-logo text-[#333]">Laboratorium Protetyczne</span> */}
+        <div className="flex flex-row items-center">
+          <span className="uppercase font-bold font-logo text-4xl text-black">
+            CerDent
+          </span>
+        </div>
       </Link>
       <nav className="flex flex-row space-x-8">
         {dataMenu.map((item) => (
           <MenuItem key={item.link} name={item.name} link={item.link} />
         ))}
       </nav>
-      <Link href="tel:509 828 545" className="bg-primary text-white rounded font-semibold py-3 px-5">Call 509 828 545</Link>
+      <Link href="tel:509 828 545" className="bg-primary border-2 border-[#efba49] text-[#333] rounded font-semibold py-3 px-5">Call 509 828 545</Link>
     </div>
   );
 }

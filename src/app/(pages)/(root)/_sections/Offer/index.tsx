@@ -11,9 +11,10 @@ function SectionOffer() {
 
       <div className="container max-w-[1200px] mx-auto">
         <div className="grid grid-cols-3 gap-6">
+          {/* #f9fafc */}
           {dataBenefits.map((item) => {
             return (
-              <div className="border border-[#f0f0f0] rounded  bg-[#f9fafc] text-center">
+              <div key={item.title} className="border border-[#f0f0f0] rounded  bg-[#fffdfc] text-center">
                 <div className="flex justify-center items-center mt-12">
                   <div className="w-[160px]">
                     <img src={item.icon} />

@@ -14,6 +14,6 @@ export const dataBenefits = [
   {
     icon: "/images/certificate.png",
     title: "Certified Experts",
-    desc: "Since 2004, our laboratory have repaired all types of dentures — from simple to complex cases."
+    desc: "Since 2004, our laboratory has repaired all types of dentures — from simple to complex cases."
   }
 ];

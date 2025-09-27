@@ -1,11 +1,13 @@
+import Container from "@/components/_layout/Container";
 import Link from "next/link";
 
 function WebFooter() {
   return (
-    <footer className="bg-white py-6 group/row relative isolate pt-12 border border-t-[#333]/30">
+    <footer className="bg-white text-center lg:text-justify py-6 group/row relative isolate pt-12 border border-t-[#333]/30">
 
-      <div className="container mx-auto w-[1400px]">
-        <div className="flex flex-row lg:flex-row justify-between items-center align-middle">
+      <Container size="wide">
+
+        <div className="flex flex-col md:flex-row lg:flex-row justify-between space-y-2 items-center align-middle">
 
           <Link href="/" className="text-[#333] flex flex-col group/item relative">
             <div className="text-sm/6 text-gray-950 flex flex-col">
@@ -61,7 +63,7 @@ function WebFooter() {
         {/* <p className="text-sm"><strong>NIP:</strong> 123123123</p> */}
         {/* </div> */}
 
-      </div>
+      </Container>
     </footer>
   )
 }

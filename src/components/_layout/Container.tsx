@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-type ContainerSize = 'fluid' | 'xs' | 'sm' | 'base' | 'md' | 'lg' | 'xl' | '2xl' | '3xl' | '4xl' | '5xl';
+type ContainerSize = 'fluid' | 'tiny' | "small" | "normal" | "wide" | "wider"
 
 interface IContainerProps {
   id?: string;
@@ -10,28 +10,21 @@ interface IContainerProps {
   children: ReactNode;
 }
 
-
-function Container({ id, style, size, className, children }: IContainerProps) {
-
+function Container({ id, style, size = "normal", className, children }: IContainerProps) {
   const options: Record<ContainerSize, string> = {
+    tiny: 'max-w-[890px]',
+    small: 'max-w-[1000px]',
+    normal: 'max-w-[1200px]',
+    wide: 'max-w-[1400px]',
+    wider: "max-w-[1600px]",
     fluid: 'max-w-none',
-    xs: 'max-w-xs',
-    sm: 'max-w-sm',
-    base: 'max-w-base',
-    md: 'max-w-md',
-    lg: 'max-w-lg',
-    xl: 'max-w-xl',
-    '2xl': 'max-w-2xl',
-    '3xl': 'max-w-3xl',
-    '4xl': 'max-w-4xl',
-    '5xl': 'max-w-5xl',
   };
-  
+
   return (
     <div
       id={id}
       style={style}
-      className={`container mx-auto px-4 md:px-8 lg:px-16 ${size ? `${options[size]}` : `${options["fluid"]}`} ${className}`}
+      className={`container mx-auto px-4 md:px-8 lg:px-12 ${size ? `${options[size]}` : `${options["fluid"]}`} ${className}`}
     >
       {children}
     </div>

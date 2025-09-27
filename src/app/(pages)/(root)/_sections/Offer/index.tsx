@@ -1,6 +1,7 @@
 import Section from "@/components/_layout/Section";
 import { dataBenefits } from "./dataBenefits";
 import Image from "next/image";
+import Container from "@/components/_layout/Container";
 
 function SectionOffer() {
   return (
@@ -14,8 +15,8 @@ function SectionOffer() {
         </h2>
       </header>
 
-      <div className="container max-w-[1200px] mx-auto">
-        <div className="grid grid-cols-3 gap-6">
+      <Container size="wide">
+        <div className="grid md:grid-cols-3 gap-6">
           {/* #f9fafc */}
           {dataBenefits.map((item) => {
             return (
@@ -33,8 +34,8 @@ function SectionOffer() {
             )
           })}
         </div>
-      </div>
-    </Section>
+      </Container>
+    </Section >
   );
 }
 

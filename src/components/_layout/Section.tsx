@@ -13,7 +13,7 @@ function Section({ id, className, style, children, size = "md" }: ISectionProps)
     clean: "",
     xs: "py-8",
     sm: "py-16",
-    md: "py-28",
+    md: "py-24",
     lg: "py-24",
     xl: "py-40"
   };

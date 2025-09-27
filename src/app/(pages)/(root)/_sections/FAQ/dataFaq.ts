@@ -28,7 +28,7 @@ export interface IFaq {
   answer: string;
 }
 
-const dataFqa:IFaq[] = [
+const dataFqa: IFaq[] = [
   {
     question: "Jak szybko można naprawić moją protezę?",
     answer: "Większość napraw wykonywana jest tego samego dnia, często w mniej niż 90 minut od momentu jej dostarczenia."
@@ -46,7 +46,7 @@ const dataFqa:IFaq[] = [
     answer: "Naprawy w święta są możliwe, ale dostępność jest ograniczona. Prosimy zadzwonić wcześniej, aby potwierdzić termin i zarezerwować wizytę."
   },
   {
-    question: "Dzwoniłem i nie otrzymałem odpowiedzi — czy naprawdę jesteście otwarci 24/7?",
+    question: "Nie udało mi się dodzwonić?",
     answer: "Jesteśmy dostępni 24/7, ale czasami bardzo zajęci. Prosimy zostawić wiadomość lub spróbować ponownie — oddzwonimy najszybciej, jak to możliwe."
   }
 ];

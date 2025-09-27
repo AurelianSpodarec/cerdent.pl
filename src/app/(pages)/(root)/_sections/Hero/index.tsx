@@ -1,6 +1,7 @@
 import { PhoneIcon } from "lucide-react";
 import IconStar2 from "@/components/Star2";
 import BackgroundPattern from "./BackgroundPattern";
+import Link from "next/link";
 
 function IconCheckmark() {
   return (
@@ -17,7 +18,7 @@ function SectionHero() {
     <section className="pt-46 pb-10">
       <div className="flex flex-col items-center justify-center text-center">
 
-        <BackgroundPattern />
+        {/* <BackgroundPattern /> */}
 
         <div className="text-center mb-4">
 
@@ -38,7 +39,8 @@ function SectionHero() {
 
           <h1 className="font-semibold max-w-[1040px] mx-auto mb-4">
             {/* Broken Denture? Get It Fixed in Under 90 Minutes */}
-            Uszkodzona proteza? Naprawa w mniej niż 90 minut.
+            Uszkodzona proteza? 
+            Naprawa w mniej niż 90 minut.
           </h1>
           <p className="text-lg max-w-[700px] mx-auto">
             {/* Technical dental laboratory — broken denture repaired today, guaranteed. Eat, smile, and enjoy your day without worry. */}
@@ -46,7 +48,7 @@ function SectionHero() {
           </p>
         </div>
 
-        <ul className="flex items-center align-middle py-6 space-x-4 text-sm">
+        <ul className="flex flex-col lg:flex-row space-y-2 lg:space-y-0 items-center align-middle py-6 space-x-4 text-sm">
           <li className="flex items-center align-center space-x-1">
             <IconCheckmark />
             <span>
@@ -71,10 +73,10 @@ function SectionHero() {
         </ul>
 
         <div className="flex flex-col space-y-2">
-          <button className="bg-primary border-2 border-[#efba49] space-x-1 text-[#333] text-lg py-4 font-semibold px-10 rounded cursor-pointer flex items-center">
+          <Link href="tel:509 828 545" className="bg-primary border-2 border-[#efba49] space-x-1 text-[#333] text-lg py-4 font-semibold px-10 rounded cursor-pointer flex items-center">
             <PhoneIcon className="size-4 mr-1" />
             <span>Zadzwoń 509 828 545</span>
-          </button>
+          </Link>
           {/* TODO: Add This Link Once other site is done
           <button>For Dentists →</button> */}
         </div>

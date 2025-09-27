@@ -2,6 +2,8 @@ import { PhoneIncomingIcon } from "lucide-react"
 import CardPoint from "./CardPoint"
 import { dataProcess } from "./dataProcess"
 import Section from "@/components/_layout/Section"
+import Container from "@/components/_layout/Container"
+import Link from "next/link"
 
 function SectionProcess() {
   return (
@@ -18,17 +20,20 @@ function SectionProcess() {
           <span>Twoja proteza naprawiona w 3 prostych krokach</span>
         </header>
 
+        <Container size="wider">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-12">
+            {dataProcess.map((item, index) => {
+              return <CardPoint item={item} key={index} index={index} />
+            })}
+          </div>
+          <div className="text-center">
+            <Link href="tel:509 828 545" className="bg-primary mx-auto text-[#333] py-3.5 font-semibold px-8 rounded-sm cursor-pointer inline-flex items-center">
+              <PhoneIncomingIcon className="size-4 mr-1" />
+              <span>Zadzwoń 509 828 545</span>
+            </Link>
+          </div>
+        </Container>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-12">
-          {dataProcess.map((item, index) => {
-            return <CardPoint item={item} key={index} index={index} />
-          })}
-        </div>
-
-        <button className="bg-primary mx-auto text-[#333] py-3.5 font-semibold px-8 rounded-sm cursor-pointer flex items-center">
-          <PhoneIncomingIcon className="size-4 mr-1" />
-          <span>Zadzwoń 509 828 545</span>
-        </button>
 
       </div>
     </Section>

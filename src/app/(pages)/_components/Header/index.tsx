@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import HeaderDesktop from "./Desktop";
+import Container from "@/components/_layout/Container";
 
 // Hook to detect scroll past header
 function useScrollHeaderBorder(headerHeight: number) {
@@ -36,21 +37,20 @@ export default function WebHeader() {
   const scrolled = useScrollHeaderBorder(HEADER_HEIGHT);
 
   return (
-    <header
-      className={`
-        fixed top-0 left-0 right-0 z-40 
-        h-[60px] m-2
-        transition-all duration-300
+    <header className={`fixed top-0 left-0 right-0 z-40 `}>
+      <Container>
+        <div className={`transition-all duration-300
         backdrop-blur-2xl
+        h-[60px] my-2
         bg-white/70
         rounded-lg
-        max-w-[1200px] mx-auto
-        ${scrolled ? "border border-[#dcdcdc]/70  m-5 header-shadow" : "border-transparent"}
-      `}
-    >
-      <div className="flex items-center h-full">
-        <HeaderDesktop />
-      </div>
+          ${scrolled ? "border border-[#dcdcdc]/70 my-5 header-shadow" : "border-transparent"}
+        `}>
+          <div className="flex items-center h-full">
+            <HeaderDesktop />
+          </div>
+        </div>
+      </Container>
     </header>
   );
 }

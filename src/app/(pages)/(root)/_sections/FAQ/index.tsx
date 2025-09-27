@@ -7,7 +7,7 @@ import AccordionBasic from "@/components/molecules/Accordion"
 function SectionFAQ() {
   return (
     <Section id="faq">
-      <Container size="4xl">
+      <Container size="tiny">
 
         {/* <header className="text-center mb-20">
           <span>FAQ</span>

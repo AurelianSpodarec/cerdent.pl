@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 import { georgia, montserrat, rajdhani } from "@/components/fonts";
 import "./../styles/styles.css";
@@ -21,6 +22,8 @@ function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
         </main>
         <WebFooter />
       </body>
+
+      <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_TAG!} />
     </html>
   );
 }

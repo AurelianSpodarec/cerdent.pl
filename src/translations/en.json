@@ -1,0 +1,23 @@
+{
+  "phone": {
+    "raw": "+48509828545",
+    "display": "+48 509 828 545",
+    "label": "Call"
+  },
+  "menu": {
+    "offer": { "name": "Fix my Denture", "link": "#offer" },
+    "process": { "name": "How it Works", "link": "#process" },
+    "testimonials": { "name": "Patients Stories", "link": "#testimonials" },
+    "faq": { "name": "FAQ", "link": "#faq" }
+  },
+  "home": {
+    "rating": "reviews on Google",
+    "title": "Broken Denture? Get It Fixed in Under 90 Minutes",
+    "description": "Technical dental laboratory — broken denture repaired today, guaranteed. Eat, smile, and enjoy your day without worry.",
+    "badges": {
+      "certified": "Certified Laboratory",
+      "open": "Open 24/7 in Warsaw",
+      "experience": "years of experience"
+    }
+  }
+}

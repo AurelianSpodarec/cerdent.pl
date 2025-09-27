@@ -1,7 +1,9 @@
 import Container from "@/components/_layout/Container";
+import LanguageSwitcher from "@/components/languageSwitch";
 import Link from "next/link";
 
 function WebFooter() {
+  
   return (
     <footer className="bg-white text-center lg:text-justify py-6 group/row relative isolate pt-12 border border-t-[#333]/30">
 
@@ -26,6 +28,7 @@ function WebFooter() {
             </span>
             {/* All rights reserved */}
             <span>Wszelkie prawa zastrzeżone</span>
+            <LanguageSwitcher />
           </div>
 
           <div className="flex space-x-7 text-[#333]">

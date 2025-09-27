@@ -38,7 +38,7 @@ export default function WebHeader() {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-40 `}>
-      <Container>
+      <Container size="wide">
         <div className={`transition-all duration-300
         backdrop-blur-2xl
         h-[60px] my-2

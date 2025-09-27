@@ -1,47 +1,15 @@
-import { WebsiteRoutes } from "@/routes";
+import { useTranslations } from "next-intl";
 
 export interface IMenuItem {
   name: string;
-  link: WebsiteRoutes
+  link: string;
 }
 
-// const dataMenu: IMenuItem[] = [
-//   {
-//     name: "Fix my Denture",
-//     link: WebsiteRoutes.OFFER
-//   },
-//   {
-//     name: "How it Works",
-//     link: WebsiteRoutes.PROCESS
-//   },
-//   {
-//     name: "Patients Stories",
-//     link: WebsiteRoutes.TESTIMONIALS
-//   },
-//   {
-//     name: "FAQ",
-//     link: WebsiteRoutes.FAQ
-//   },
-// ]
+export function getMenuItems(): IMenuItem[] {
+  const t = useTranslations("menu");
 
-const dataMenu: IMenuItem[] = [
-  {
-    name: "Napraw moją protezę",
-    link: WebsiteRoutes.OFFER
-  },
-  {
-    name: "Jak to działa",
-    link: WebsiteRoutes.PROCESS
-  },
-  {
-    name: "Historie pacjentów",
-    link: WebsiteRoutes.TESTIMONIALS
-  },
-  {
-    name: "FAQ",
-    link: WebsiteRoutes.FAQ
-  },
-]
-
-
-export default dataMenu
+  return ["offer", "process", "testimonials", "faq"].map((key) => ({
+    name: t(`${key}.name`),
+    link: t(`${key}.link`)
+  }));
+}

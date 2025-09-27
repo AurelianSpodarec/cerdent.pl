@@ -1,0 +1,23 @@
+{
+  "phone": {
+    "raw": "509828545",
+    "display": "509 828 545",
+    "label": "Zadzwoń"
+  },
+  "menu": {
+    "offer": { "name": "Napraw moją protezę", "link": "#oferta" },
+    "process": { "name": "Jak to działa", "link": "#proces" },
+    "testimonials": { "name": "Historie pacjentów", "link": "#opinie" },
+    "faq": { "name": "Mam Pytania", "link": "#pytania" }
+  },
+  "home": {
+    "rating": "opinie w Google",
+    "title": "Uszkodzona proteza? Naprawa w mniej niż 90 minut.",
+    "description": "Techniczny laboratorium protetyczne — naprawa uszkodzonej protezy jeszcze dziś, gwarantowane. Jedz, uśmiechaj się i ciesz się dniem już dziś.",
+    "badges": {
+      "certified": "Certyfikowane laboratorium",
+      "open": "Otwarte 24/7 w Warszawie",
+      "experience": "lat doświadczenia"
+    }
+  }
+}

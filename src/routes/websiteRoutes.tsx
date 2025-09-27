@@ -1,19 +1,27 @@
-// export enum WebsiteRoutes {
-//   ROOT = "/",
-//   OFFER = "#offer",
-//   TESTIMONIALS = "#testimonials",
-//   PROCESS = "#process",
-//   FAQ = "#faq",
-//   SERVICES = "/services",
-//   WORK = "/projects"
-// }
+import { useTranslations } from "next-intl";
 
-export enum WebsiteRoutes {
-  ROOT = "/",
-  OFFER = "#oferta",           // "offer" → "oferta"
-  TESTIMONIALS = "#opinie",    // "testimonials" → "opinie"
-  PROCESS = "#process",  // "process" → "jak-to-dziala"
-  FAQ = "#faq",                // FAQ usually stays the same
-  SERVICES = "/uslugi",        // "services" → "uslugi"
-  // WORK = "/projekty"           // "work/projects" → "projekty"
+class TranslatedRoutes {
+  private t: ReturnType<typeof useTranslations> | null = null;
+
+  init(translator: ReturnType<typeof useTranslations>) {
+    this.t = translator;
+  }
+
+  get ROOT() {
+    return this.t?.("root") || "/";
+  }
+  get OFFER() {
+    return this.t?.("offer") || "#offer";
+  }
+  get TESTIMONIALS() {
+    return this.t?.("testimonials") || "#testimonials";
+  }
+  get PROCESS() {
+    return this.t?.("process") || "#process";
+  }
+  get FAQ() {
+    return this.t?.("faq") || "#faq";
+  }
 }
+
+export const WebsiteRoutes = new TranslatedRoutes();

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { WebsiteRoutes } from "@/routes";
 
 import { useTranslations } from "next-intl";
-import { useMenuItems } from "../dataMenu";
+import { IMenuItem, useMenuItems } from "../dataMenu";
 
 function MenuItem({ name, link }: IMenuItem) {
   return <Link href={link} className="text-sm text-black">{name}</Link>;

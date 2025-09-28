@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import Section from "@/components/_layout/Section";
 import Container from "@/components/_layout/Container";
+import SectionHeader from "@/components/SectionHeader";
 
 const benefitIcons = {
   b1: "/images/wall-clock.png",
@@ -20,11 +21,12 @@ function SectionOffer() {
 
   return (
     <Section id="offer">
-      <header className="text-center mb-20">
-        <h2>{t("title")}</h2>
-      </header>
-
       <Container size="wide">
+
+        <SectionHeader
+          title={t("title")}
+        />
+
         <div className="grid md:grid-cols-3 gap-6">
           {benefits.map((item) => (
             <div
@@ -52,6 +54,7 @@ function SectionOffer() {
             </div>
           ))}
         </div>
+
       </Container>
     </Section>
   );

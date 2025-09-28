@@ -4,6 +4,7 @@ import Container from "@/components/_layout/Container";
 import Section from "@/components/_layout/Section";
 import TestimonialCardRated from "./TestimonialCard";
 import { useTranslations } from "next-intl";
+import SectionHeader from "@/components/SectionHeader";
 
 function SectionTestimonials() {
   const t = useTranslations("home.testimonials");
@@ -12,11 +13,11 @@ function SectionTestimonials() {
     <Section id="testimonials" color="clean" size="lg">
       <Container>
 
-        <header className="text-center mb-20">
-          <span>{t("kicker")}</span>
-          <h2>{t("title")}</h2>
-          <span>4,8/5 ⭐</span>
-        </header>
+        <SectionHeader
+          kicker={t("kicker")}
+          title={t("title")}
+          description="4,8/5 ⭐"
+        />
 
         <div className="masonry-container columns-1 md:columns-2 lg:columns-3 gap-4">
           {dataTestimonials.map((testimonial, index) => {

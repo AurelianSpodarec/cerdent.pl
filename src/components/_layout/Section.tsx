@@ -11,11 +11,11 @@ interface ISectionProps extends React.HTMLAttributes<HTMLElement> {
 function Section({ id, className, style, children, size = "md" }: ISectionProps) {
   const sizes = {
     clean: "",
-    xs: "py-8",
-    sm: "py-16",
-    md: "py-24",
-    lg: "py-24",
-    xl: "py-40"
+    xs: "py-4 sm:py-8",       // smaller on mobile, larger on sm+
+    sm: "py-8 sm:py-16",
+    md: "py-14 sm:py-24",
+    lg: "py-18 sm:py-32",
+    xl: "py-22 sm:py-40",
   };
 
   // primary color: #fff

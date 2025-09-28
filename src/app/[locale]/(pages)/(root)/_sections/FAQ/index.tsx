@@ -4,6 +4,7 @@ import Section from "@/components/_layout/Section";
 import AccordionBasic from "@/components/molecules/Accordion";
 
 import { IFaq } from "@/app/[locale]/(pages)/(root)/_sections/FAQ/dataFaq";
+import SectionHeader from "@/components/SectionHeader";
 
 function SectionFAQ() {
   const t = useTranslations("home.faq");
@@ -18,12 +19,14 @@ function SectionFAQ() {
   return (
     <Section id="faq">
       <Container size="tiny">
-        <header className="text-center mb-20">
-          <span>{t("kicker")}</span>
-          <h2>{t("title")}</h2>
-        </header>
+
+        <SectionHeader
+          kicker={t("kicker")}
+          title={t("title")}
+        />
 
         <AccordionBasic type="single" data={faqItems} />
+
       </Container>
     </Section>
   );

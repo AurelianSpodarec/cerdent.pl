@@ -5,6 +5,7 @@ import { PhoneIncomingIcon } from "lucide-react";
 import CardPoint from "./CardPoint";
 import Section from "@/components/_layout/Section";
 import Container from "@/components/_layout/Container";
+import SectionHeader from "@/components/SectionHeader";
 
 function SectionProcess() {
   const t = useTranslations("home.process");
@@ -18,12 +19,13 @@ function SectionProcess() {
 
   return (
     <Section id="process" className="bg-[#fffcf7]">
-      <header className="text-center mb-20">
-        <h2>{t("title")}</h2>
-        <span>{t("subtitle")}</span>
-      </header>
-
       <Container size="wider">
+
+        <SectionHeader
+          title={t("title")}
+          description={t("subtitle")}
+        />
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-12">
           {steps.map((item, index) => (
             <CardPoint
@@ -45,6 +47,7 @@ function SectionProcess() {
             </span>
           </Link>
         </div>
+
       </Container>
     </Section>
   );

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { ITestimonial } from "./ITestimonial";
 
-import IconStar from "@/components/Star";
-import IconGoogle from "@/components/Google";
+import IconStar from "@/components/icons/Star";
+import IconGoogle from "@/components/icons/Google";
 
 function TestimonialCardRated({ item: { name, title, image, quote } }: { item: ITestimonial }) {
   return (

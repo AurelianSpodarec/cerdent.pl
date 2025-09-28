@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { PhoneIcon } from "lucide-react";
 
 import IconStar2 from "@/components/Star2";
@@ -7,6 +7,8 @@ import BackgroundPattern from "./BackgroundPattern";
 import IconCheckmark from "@/components/Checkmark";
 
 function SectionHero() {
+  const locale = useLocale();
+
   const t = useTranslations('home.hero')
   const tPhone = useTranslations('phone')
   const tBadges = [
@@ -14,6 +16,11 @@ function SectionHero() {
     { text: t("badges.open") },
     { text: `31+ ${t("badges.experience")}` }
   ];
+
+  const localeTitleStyles: Record<string, string> = {
+    en: "max-w-[880px]",
+    pl: "max-w-[1040px]",
+  };
 
   return (
     <section className="pt-46 pb-10">
@@ -37,7 +44,7 @@ function SectionHero() {
             </div>
           </div>
 
-          <h1 className="font-semibold max-w-[1040px] mx-auto mb-4">{t('title')}</h1>
+          <h1 className={`font-semibold mx-auto mb-4 ${localeTitleStyles[locale]}`}>{t('title')}</h1>
           <p className="text-lg max-w-[700px] mx-auto">{t('description')}</p>
         </div>
 

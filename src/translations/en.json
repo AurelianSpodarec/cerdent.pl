@@ -4,6 +4,10 @@
     "display": "+48 509 828 545",
     "label": "Call"
   },
+  "footer": {
+    "motto": "Dental Prototype Laboratory",
+    "copyright": "All rights reserved"
+  },
   "menu": {
     "offer": { "name": "Fix my Denture", "link": "#offer" },
     "process": { "name": "How it Works", "link": "#process" },

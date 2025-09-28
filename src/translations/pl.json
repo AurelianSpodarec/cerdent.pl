@@ -4,6 +4,10 @@
     "display": "509 828 545",
     "label": "Zadzwoń"
   },
+  "footer": {
+    "motto": "Labolatorium Prototyczne",
+    "copyright": "Wszelkie prawa zastrzeżone"
+  },
   "menu": {
     "offer": { "name": "Napraw moją protezę", "link": "#oferta" },
     "process": { "name": "Jak to działa", "link": "#proces" },

@@ -1,4 +1,5 @@
-import { IFaq } from "@/app/(pages)/(root)/_sections/FAQ/dataFaq";
+
+import { IFaq } from "@/app/[locale]/(pages)/(root)/_sections/FAQ/dataFaq";
 import {
   Accordion,
   AccordionContent,

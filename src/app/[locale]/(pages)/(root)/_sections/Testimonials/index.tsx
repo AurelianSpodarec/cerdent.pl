@@ -3,21 +3,18 @@ import { dataTestimonials } from "./dataTestimonials";
 import Container from "@/components/_layout/Container";
 import Section from "@/components/_layout/Section";
 import TestimonialCardRated from "./TestimonialCard";
+import { useTranslations } from "next-intl";
 
 function SectionTestimonials() {
+  const t = useTranslations("home.testimonials");
+
   return (
     <Section id="testimonials" color="clean" size="lg">
       <Container>
-        {/* 
-        <header className="text-center mb-20">
-          <span>What other patients say</span>
-          <h2>Testimonials</h2>
-          <span>4.8/5 - stars</span>
-        </header> */}
 
         <header className="text-center mb-20">
-          <span>Co mówią nasi pacjenci</span>
-          <h2>Opinie z Googli</h2>
+          <span>{t("kicker")}</span>
+          <h2>{t("title")}</h2>
           <span>4,8/5 ⭐</span>
         </header>
 

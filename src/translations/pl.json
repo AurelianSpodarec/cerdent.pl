@@ -11,13 +11,84 @@
     "faq": { "name": "Mam Pytania", "link": "#pytania" }
   },
   "home": {
-    "rating": "opinie w Google",
-    "title": "Uszkodzona proteza? Naprawa w mniej niż 90 minut.",
-    "description": "Techniczny laboratorium protetyczne — naprawa uszkodzonej protezy jeszcze dziś, gwarantowane. Jedz, uśmiechaj się i ciesz się dniem już dziś.",
-    "badges": {
-      "certified": "Certyfikowane laboratorium",
-      "open": "Otwarte 24/7 w Warszawie",
-      "experience": "lat doświadczenia"
+    "hero": {
+      "rating": "opinie w Google",
+      "title": "Uszkodzona proteza? Naprawa w mniej niż 90 minut.",
+      "description": "Techniczny laboratorium protetyczne — naprawa uszkodzonej protezy jeszcze dziś, gwarantowane. Jedz, uśmiechaj się i ciesz się dniem już dziś.",
+      "badges": {
+        "certified": "Certyfikowane laboratorium",
+        "open": "Otwarte 24/7 w Warszawie",
+        "experience": "lat doświadczenia"
+      }
+    },
+    "offer": {
+      "title": "Dlaczego warto wybrać CerDent?",
+      "benefits": {
+        "b1": {
+          "title": "Szybka Naprawa",
+          "desc": "Twoja proteza naprawiona jeszcze dziś — w mniej niż 90 minut, idealnie na wakacje, spotkania biznesowe czy wieczorne wyjścia."
+        },
+        "b2": {
+          "title": "Gwarancja Dopasowania",
+          "desc": "Gwarantujemy idealne dopasowanie protezy — naprawy najwyższej jakości."
+        },
+        "b3": {
+          "title": "Certyfikowani Eksperci",
+          "desc": "Od 2004 roku nasze laboratorium naprawia wszystkie rodzaje protez — od prostych po najbardziej skomplikowane przypadki."
+        }
+      }
+    },
+    "process": {
+      "title": "Jak to działa",
+      "subtitle": "Twoja proteza naprawiona w 3 prostych krokach",
+      "process": {
+        "step1": {
+          "title": "Zadzwoń",
+          "desc": "Powiedz nam, co się stało lub wyślij zdjęcie — szybko ocenimy i umówimy wizytę."
+        },
+        "step2": {
+          "title": "Przynieś Protezę",
+          "desc": "Dostarcz do naszego laboratorium — eksperci ocenią i naprawią ją precyzyjnie."
+        },
+        "step3": {
+          "title": "Odbierz Tego Samego Dnia",
+          "desc": "Twoja proteza gotowa w mniej niż 90 minut — szybko, dokładnie i z gwarancją dopasowania."
+        }
+      }
+    },
+    "testimonials": {
+      "kicker": "Co mówią nasi pacjenci",
+      "title": "Opinie z Googli"
+    },
+    "faq": {
+      "kicker": "Pytania",
+      "title": "Masz pytania? Mamy odpowiedzi",
+      "questions": {
+        "q1": {
+          "question": "Jak szybko można naprawić moją protezę?",
+          "answer": "Większość napraw wykonywana jest tego samego dnia, często w mniej niż 90 minut od momentu jej dostarczenia."
+        },
+        "q2": {
+          "question": "Czy potrzebuję umówić wizytę?",
+          "answer": "Tak. Mimo że jesteśmy dostępni 24/7, prosimy najpierw zadzwonić przed przyjściem."
+        },
+        "q3": {
+          "question": "Ile kosztuje naprawa protezy?",
+          "answer": "Prosimy o kontakt telefoniczny w celu indywidualnej wyceny — podamy dokładny koszt i potwierdzimy dostępność naprawy tego samego dnia."
+        },
+        "q4": {
+          "question": "Czy pracujecie również w święta?",
+          "answer": "Naprawy w święta są możliwe, ale dostępność jest ograniczona. Prosimy zadzwonić wcześniej, aby potwierdzić termin i zarezerwować wizytę."
+        },
+        "q5": {
+          "question": "Nie udało mi się dodzwonić?",
+          "answer": "Jesteśmy dostępni 24/7, ale czasami bardzo zajęci. Prosimy zostawić wiadomość lub spróbować ponownie — oddzwonimy najszybciej, jak to możliwe."
+        }
+      }
+    },
+    "cta": {
+      "title": "Masz pytania?",
+      "description": "Chcesz dowiedzieć się więcej, umówić wizytę lub dostarczyć protezę? Zadzwoń do nas — działamy 24/7 i chętnie pomożemy."
     }
   }
 }

@@ -7,7 +7,7 @@ import BackgroundPattern from "./BackgroundPattern";
 import IconCheckmark from "@/components/Checkmark";
 
 function SectionHero() {
-  const t = useTranslations('home')
+  const t = useTranslations('home.hero')
   const tPhone = useTranslations('phone')
   const tBadges = [
     { text: t("badges.certified") },
@@ -51,7 +51,7 @@ function SectionHero() {
         </ul>
 
         <div className="flex flex-col space-y-2">
-          <Link href={`tel:${tPhone("raw")}`} className="bg-primary border-2 border-[#efba49] space-x-1 text-[#333] text-lg py-4 font-semibold px-10 rounded cursor-pointer flex items-center">
+          <Link href={`tel:${tPhone("raw")}`} className="bg-primary border-2 border-[#efba49] space-x-1 text-white text-lg py-4 font-semibold px-10 rounded cursor-pointer flex items-center">
             <PhoneIcon className="size-4 mr-1" />
             <span>{tPhone('label')} {tPhone('display')}</span>
           </Link>

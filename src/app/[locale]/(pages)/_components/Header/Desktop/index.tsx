@@ -22,7 +22,7 @@ function HeaderDesktop() {
             xmlns='http://www.w3.org/2000/svg'
             version='1.1'
             viewBox='0 0 850.4 850.4'
-            className="fill-[#cf0001]/70 size-12"
+            className="fill-[#c68d00b3] size-12"
           >
             <path
               d='m756.9 244.6 7.2 32.4H637.9c-7.6-9.8-17.2-19.1-25.3-28.8-197.8-240.6-532.5 37-386 292.2 52.7 91.8 146 141.5 252.7 121.1 72.5-13.9 117.3-61.8 161-116.8l123.8-.7c.8.8-2.5 18.3-3.6 21.6-19.4 61.6-109.7 148.9-167 177.5-143.2 71.3-316.3 34.3-424.6-80.1C85.7 561.2 52.5 442.2 87.7 313.1c88.4-323.5 508.8-366.4 669.2-68.5'
@@ -58,7 +58,7 @@ function HeaderDesktop() {
           <MenuItem key={item.link} name={item.name} link={item.link} />
         ))}
       </nav>
-      <Link href={`tel:${tPhone("raw")}`} className="bg-primary flex space-x-1 border-2 border-[#efba49] text-[#333] rounded font-semibold py-3 px-5">
+      <Link href={`tel:${tPhone("raw")}`} className="bg-primary flex space-x-1 border-2 border-[#efba49] text-white rounded font-semibold py-3 px-5">
         <span className="hidden lg:flex">{tPhone('label')} </span>
         <span>{tPhone('display')}</span>
       </Link>

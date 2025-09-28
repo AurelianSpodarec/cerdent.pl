@@ -11,13 +11,84 @@
     "faq": { "name": "FAQ", "link": "#faq" }
   },
   "home": {
-    "rating": "reviews on Google",
-    "title": "Broken Denture? Get It Fixed in Under 90 Minutes",
-    "description": "Technical dental laboratory — broken denture repaired today, guaranteed. Eat, smile, and enjoy your day without worry.",
-    "badges": {
-      "certified": "Certified Laboratory",
-      "open": "Open 24/7 in Warsaw",
-      "experience": "years of experience"
+    "hero": {
+      "rating": "reviews on Google",
+      "title": "Broken Denture? Get It Fixed in Under 90 Minutes",
+      "description": "Technical dental laboratory — broken denture repaired today, guaranteed. Eat, smile, and enjoy your day without worry.",
+      "badges": {
+        "certified": "Certified Laboratory",
+        "open": "Open 24/7 in Warsaw",
+        "experience": "years of experience"
+      }
+    },
+    "offer": {
+      "title": "Why Choose CerDent?",
+      "benefits": {
+        "b1": {
+          "title": "Fast Repairs",
+          "desc": "Get your denture fixed today in under 90 minutes for holidays, business meetings, or nights out."
+        },
+        "b2": {
+          "title": "Guaranteed Fit",
+          "desc": "We guarantee your denture will fit perfectly — quality repairs."
+        },
+        "b3": {
+          "title": "Certified Experts",
+          "desc": "Since 2004, our laboratory has repaired all types of dentures — from simple to complex cases."
+        }
+      }
+    },
+    "process": {
+      "title": "How it works",
+      "subtitle": "Your denture repaired in 3 simple steps",
+      "process": {
+        "step1": {
+          "title": "Call Us First",
+          "desc": "Tell us what happened or send a photo for a quick assessment, and we’ll schedule your appointment."
+        },
+        "step2": {
+          "title": "Bring Your Denture In",
+          "desc": "Drop it off at our certified lab, where our experts quickly assess and start repairing it with precision."
+        },
+        "step3": {
+          "title": "Pick Up Same Day",
+          "desc": "Collect your fully repaired denture in under 90 minutes—fast, precise, and guaranteed to fit."
+        }
+      }
+    },
+    "testimonials": {
+      "kicker": "What other patients say",
+      "title": "Testimonials"
+    },
+    "faq": {
+      "kicker": "FAQ",
+      "title": "Questions? Answers",
+      "questions": {
+        "q1": {
+          "question": "How fast can my denture be repaired?",
+          "answer": "Most repairs are done the same day, often under 90 minutes from the moment you bring them in."
+        },
+        "q2": {
+          "question": "Do I need an appointment?",
+          "answer": "Yes. While we are open 24/7, please call first before coming."
+        },
+        "q3": {
+          "question": "How much does a denture repair cost?",
+          "answer": "Please call us for a personalized quote — we’ll provide exact pricing and confirm same-day service availability."
+        },
+        "q4": {
+          "question": "Do you also work on holidays?",
+          "answer": "Holiday repairs are possible, but availability is limited. Please call us first to confirm and reserve your spot."
+        },
+        "q5": {
+          "question": "I called and got no reply — are you really open 24/7?",
+          "answer": "We’re open 24/7, but sometimes we’re very busy. Please leave a message or try again, and we’ll call you back ASAP."
+        }
+      }
+    },
+    "cta": {
+      "title": "Still have questions?",
+      "description": "If you need more details, want to arrange an appointment, or are ready to drop off your denture, just give us a call — we’re available 24/7."
     }
   }
 }

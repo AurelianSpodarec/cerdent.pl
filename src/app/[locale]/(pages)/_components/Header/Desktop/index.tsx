@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { WebsiteRoutes } from "@/routes";
-import { getMenuItems, IMenuItem } from "../dataMenu";
+
 import { useTranslations } from "next-intl";
+import { useMenuItems } from "../dataMenu";
 
 function MenuItem({ name, link }: IMenuItem) {
   return <Link href={link} className="text-sm text-black">{name}</Link>;
@@ -11,8 +12,7 @@ function MenuItem({ name, link }: IMenuItem) {
 
 function HeaderDesktop() {
   const tPhone = useTranslations('phone')
-
-  const dataMenu = getMenuItems();
+  const dataMenu = useMenuItems();
 
   return (
     <div className="w-full items-center justify-between h-full lg:pl-4 pl-2 pr-1 flex">

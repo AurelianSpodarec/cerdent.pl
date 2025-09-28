@@ -1,14 +1,14 @@
-import { useTranslations } from "next-intl";
+import { useTranslations } from 'next-intl';
 
 export interface IMenuItem {
   name: string;
   link: string;
 }
 
-export function getMenuItems(): IMenuItem[] {
-  const t = useTranslations("menu");
+export function useMenuItems(): IMenuItem[] {
+  const t = useTranslations('menu'); // matches your JSON
 
-  return ["offer", "process", "testimonials", "faq"].map((key) => ({
+  return ['offer', 'process', 'testimonials', 'faq'].map(key => ({
     name: t(`${key}.name`),
     link: t(`${key}.link`)
   }));

@@ -1,5 +1,5 @@
 import MenuLink from "./MenuLink";
-import dataMenu from "../../dataMenu";
+// import dataMenu from "../../dataMenu";
 
 function Drawer({ open, onClose }: { open: boolean; onClose: () => void }) {
   return (
@@ -14,13 +14,13 @@ function Drawer({ open, onClose }: { open: boolean; onClose: () => void }) {
         </button>
       </header>
 
-      <nav className="p-4 flex-1">
+      {/* <nav className="p-4 flex-1">
         <div className="space-y-2">
           {dataMenu.map((item) => (
             <MenuLink key={item.link} {...item} onClick={onClose} />
           ))}
         </div>
-      </nav>
+      </nav> */}
 
       <footer className="p-4 text-sm text-muted-foreground border-t border-muted/20 space-y-2">
         <address className="not-italic space-y-1">

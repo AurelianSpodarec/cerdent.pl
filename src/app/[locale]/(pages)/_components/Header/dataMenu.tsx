@@ -6,7 +6,7 @@ export interface IMenuItem {
 }
 
 export function useMenuItems(): IMenuItem[] {
-  const t = useTranslations('menu'); // matches your JSON
+  const t = useTranslations('menu');
 
   return ['offer', 'process', 'testimonials', 'faq'].map(key => ({
     name: t(`${key}.name`),

@@ -15,6 +15,6 @@ export const configBrand = {
   },
   social: {
     twitter: "https://x.com/CerDent",
-    facebook: "https://x.com/CerDent",
+    facebook: "https://facebook.com/CerDent",
   }
 } as const;

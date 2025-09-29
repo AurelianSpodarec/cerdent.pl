@@ -34,6 +34,18 @@ function WebFooter() {
             </Link>
           </div>
 
+          ul. Ludwiki 1  01-226 Warszawa
+          NIP 612-149-42-57
+
+          Privacy Policy
+
+
+          Blog
+          For Dentists
+
+
+          {/* VAT number (NIP): */}
+
         </div>
 
       </Container>

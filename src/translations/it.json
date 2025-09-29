@@ -1,0 +1,98 @@
+{
+  "phone": {
+    "raw": "+39509828545",
+    "display": "+39 509 828 545",
+    "label": "Chiama"
+  },
+  "footer": {
+    "motto": "Laboratorio Prototipico",
+    "copyright": "Tutti i diritti riservati"
+  },
+  "menu": {
+    "offer": { "name": "Ripara la mia protesi", "link": "#offerta" },
+    "process": { "name": "Come funziona", "link": "#processo" },
+    "testimonials": { "name": "Storie dei pazienti", "link": "#testimonianze" },
+    "faq": { "name": "Ho delle domande", "link": "#faq" }
+  },
+  "home": {
+    "hero": {
+      "rating": "recensioni su Google",
+      "title": "Protesi rotta? Riparazione veloce in 90 minuti.",
+      "description": "Pronto intervento protesico — ripariamo la tua protesi danneggiata entro oggi, garantito. Torna subito alle tue attività quotidiane.",
+      "badges": {
+        "certified": "Laboratorio certificato",
+        "open": "Aperto 24/7 a Varsavia",
+        "experience": "anni di esperienza"
+      }
+    },
+    "offer": {
+      "title": "Cosa puoi aspettarti da noi",
+      "benefits": {
+        "b1": {
+          "title": "Riparazione Veloce",
+          "desc": "La tua protesi riparata entro oggi — in meno di 90 minuti, perfetta per vacanze, meeting di lavoro o serate fuori."
+        },
+        "b2": {
+          "title": "Garanzia di Adattamento",
+          "desc": "Garantiamo una perfetta vestibilità della protesi — riparazioni della massima qualità."
+        },
+        "b3": {
+          "title": "Esperti Certificati",
+          "desc": "Dal 2004 il nostro laboratorio ripara tutti i tipi di protesi — dai casi più semplici a quelli più complessi."
+        }
+      }
+    },
+    "process": {
+      "title": "Come funziona",
+      "subtitle": "La tua protesi riparata in 3 semplici passi",
+      "process": {
+        "step1": {
+          "title": "Chiama",
+          "desc": "Raccontaci cosa è successo o invia una foto — valuteremo rapidamente e fisseremo un appuntamento."
+        },
+        "step2": {
+          "title": "Porta la Protesi",
+          "desc": "Consegna al nostro laboratorio — gli esperti la valuteranno e la ripareranno con precisione."
+        },
+        "step3": {
+          "title": "Ritira lo Stesso Giorno",
+          "desc": "La tua protesi pronta in meno di 90 minuti — veloce, precisa e con garanzia di adattamento."
+        }
+      }
+    },
+    "testimonials": {
+      "kicker": "Cosa dicono i nostri pazienti",
+      "title": "Recensioni da Google"
+    },
+    "faq": {
+      "kicker": "Domande frequenti",
+      "title": "Hai domande? Rispondiamo volentieri",
+      "questions": {
+        "q1": {
+          "question": "Quanto velocemente si può riparare la mia protesi?",
+          "answer": "La maggior parte delle riparazioni viene effettuata lo stesso giorno, spesso in meno di 90 minuti dalla consegna."
+        },
+        "q2": {
+          "question": "Devo prenotare un appuntamento?",
+          "answer": "Sì. Anche se siamo disponibili 24/7, ti chiediamo di chiamare prima di venire."
+        },
+        "q3": {
+          "question": "Quanto costa riparare una protesi?",
+          "answer": "Contattaci telefonicamente per un preventivo personalizzato — ti forniremo il costo esatto e confermeremo la disponibilità della riparazione lo stesso giorno."
+        },
+        "q4": {
+          "question": "Lavorate anche durante le feste?",
+          "answer": "Le riparazioni durante le feste sono possibili, ma la disponibilità è limitata. Chiama in anticipo per confermare e prenotare."
+        },
+        "q5": {
+          "question": "Non sono riuscito a contattarvi?",
+          "answer": "Siamo disponibili 24/7, ma a volte molto impegnati. Lascia un messaggio o riprova — ti richiameremo il prima possibile."
+        }
+      }
+    },
+    "cta": {
+      "title": "Hai bisogno di aiuto?",
+      "description": "Vuoi saperne di più, prenotare un appuntamento o consegnare la protesi? Chiama subito — siamo operativi 24/7 e felici di aiutarti."
+    }
+  }
+}

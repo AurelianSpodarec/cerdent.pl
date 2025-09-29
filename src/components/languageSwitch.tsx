@@ -11,7 +11,8 @@ import {
 import { ChevronDownIcon } from 'lucide-react';
 import { useState } from 'react';
 
-// ---- FLAGS ----
+// https://nucleoapp.com/svg-flag-icons
+
 function EnglandFlag() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
@@ -51,6 +52,45 @@ function PolandFlag() {
     </svg>
   )
 }
+
+function TurkeyFlag() {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='32'
+      height='32'
+      viewBox='0 0 32 32'
+    >
+      <rect
+        width='30'
+        height='24'
+        x='1'
+        y='4'
+        fill='#d12d24'
+        rx='4'
+        ry='4'
+      ></rect>
+      <path
+        d='M27 4H5a4 4 0 0 0-4 4v16a4 4 0 0 0 4 4h22a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4m3 20c0 1.654-1.346 3-3 3H5c-1.654 0-3-1.346-3-3V8c0-1.654 1.346-3 3-3h22c1.654 0 3 1.346 3 3z'
+        opacity='0.15'
+      ></path>
+      <path
+        fill='#fff'
+        d='M27 5H5a3 3 0 0 0-3 3v1a3 3 0 0 1 3-3h22a3 3 0 0 1 3 3V8a3 3 0 0 0-3-3'
+        opacity='0.2'
+      ></path>
+      <path
+        fill='#fff'
+        d='M19.807 16 21 14.358l-1.931.627-1.193-1.643v2.031L15.945 16l1.931.627v2.031l1.193-1.643 1.931.627z'
+      ></path>
+      <path
+        fill='#fff'
+        d='M15.953 19.325a4.471 4.471 0 1 1 .337-6.314 5.59 5.59 0 1 0 0 5.977 5 5 0 0 1-.337.337'
+      ></path>
+    </svg>
+  )
+}
+
 function LanguageSwitcher() {
   const locale = useLocale();
   const router = useRouter();
@@ -69,7 +109,9 @@ function LanguageSwitcher() {
     { name: "Polski", display: "PL", abbriviation: "pl", image: PolandFlag },
     { name: "Italiano", display: "IT", abbriviation: "it", image: ItalyFlag },
     { name: "British", display: "UK", abbriviation: "en", image: EnglandFlag },
+    { name: "Türkçe", display: "TR", abbriviation: "tr", image: TurkeyFlag },
   ];
+
 
   const currentLang = tra.find(l => l.abbriviation === locale);
 

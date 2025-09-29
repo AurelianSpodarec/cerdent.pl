@@ -1,0 +1,98 @@
+{
+  "phone": {
+    "raw": "+90509828545",
+    "display": "+90 509 828 545",
+    "label": "Ara"
+  },
+  "footer": {
+    "motto": "Prototip Laboratuvarı",
+    "copyright": "Tüm hakları saklıdır"
+  },
+  "menu": {
+    "offer": { "name": "Protezimi Onar", "link": "#oferta" },
+    "process": { "name": "Nasıl Çalışır", "link": "#proces" },
+    "testimonials": { "name": "Hasta Hikayeleri", "link": "#opinie" },
+    "faq": { "name": "Sık Sorulan Sorular", "link": "#pytania" }
+  },
+  "home": {
+    "hero": {
+      "rating": "Google Yorumları",
+      "title": "Bozuk protez mi? 90 dakikada hızlı onarım.",
+      "description": "Acil protez hizmeti — protezinizi bugün onarın, garantili. Günlük keyiflerinize hızla geri dönün.",
+      "badges": {
+        "certified": "Sertifikalı laboratuvar",
+        "open": "Varşova’da 7/24 açık",
+        "experience": "yıllık deneyim"
+      }
+    },
+    "offer": {
+      "title": "Bizden Neler Bekleyebilirsiniz",
+      "benefits": {
+        "b1": {
+          "title": "Hızlı Onarım",
+          "desc": "Proteziniz bugün onarılır — 90 dakikadan kısa sürede, tatiller, iş toplantıları veya akşam etkinlikleri için ideal."
+        },
+        "b2": {
+          "title": "Uyum Garantisi",
+          "desc": "Protezinizin mükemmel uyumunu garanti ediyoruz — en yüksek kalite onarımlar."
+        },
+        "b3": {
+          "title": "Sertifikalı Uzmanlar",
+          "desc": "2004’ten beri laboratuvarımız her tür protezi onarıyor — basitten en karmaşık vakalara kadar."
+        }
+      }
+    },
+    "process": {
+      "title": "Nasıl Çalışır",
+      "subtitle": "Proteziniz 3 basit adımda hazır",
+      "process": {
+        "step1": {
+          "title": "Ara",
+          "desc": "Ne olduğunu bize anlatın veya fotoğraf gönderin — hızlıca değerlendirip randevu ayarlayacağız."
+        },
+        "step2": {
+          "title": "Protezi Getir",
+          "desc": "Laboratuvarımıza teslim edin — uzmanlarımız titizlikle değerlendirip onaracak."
+        },
+        "step3": {
+          "title": "Aynı Gün Al",
+          "desc": "Proteziniz 90 dakikadan kısa sürede hazır — hızlı, hassas ve uyum garantili."
+        }
+      }
+    },
+    "testimonials": {
+      "kicker": "Hastalarımızın Söyledikleri",
+      "title": "Google Yorumları"
+    },
+    "faq": {
+      "kicker": "En Sık Sorulan Sorular",
+      "title": "Sorularınız mı var? Yanıtlamaktan mutluluk duyarız",
+      "questions": {
+        "q1": {
+          "question": "Protezim ne kadar hızlı onarılır?",
+          "answer": "Çoğu onarım aynı gün yapılır, genellikle protezin tesliminden itibaren 90 dakikadan kısa sürede."
+        },
+        "q2": {
+          "question": "Randevu almam gerekiyor mu?",
+          "answer": "Evet. 7/24 hizmet vermemize rağmen, gelmeden önce lütfen bizi arayın."
+        },
+        "q3": {
+          "question": "Protez onarımı ne kadar tutar?",
+          "answer": "Bireysel fiyat bilgisi için lütfen telefonla iletişime geçin — tam maliyeti ve aynı gün onarım uygunluğunu size bildireceğiz."
+        },
+        "q4": {
+          "question": "Tatillerde çalışıyor musunuz?",
+          "answer": "Tatillerde onarım mümkündür, ancak sınırlı olabilir. Lütfen önceden arayarak randevu teyit edin."
+        },
+        "q5": {
+          "question": "Aradım ama ulaşamadım?",
+          "answer": "7/24 hizmetinizdeyiz, ancak bazen yoğun olabiliriz. Lütfen mesaj bırakın veya tekrar deneyin — mümkün olan en kısa sürede geri döneceğiz."
+        }
+      }
+    },
+    "cta": {
+      "title": "Yardıma mı ihtiyacınız var?",
+      "description": "Daha fazla bilgi almak, randevu ayarlamak veya protezinizi teslim etmek ister misiniz? Bizi arayın — 7/24 hizmet veriyoruz ve memnuniyetle yardımcı oluruz."
+    }
+  }
+}

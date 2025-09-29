@@ -9,90 +9,90 @@
     "copyright": "Tüm hakları saklıdır"
   },
   "menu": {
-    "offer": { "name": "Protezimi Onar", "link": "#oferta" },
+    "offer": { "name": "Protezi Onar", "link": "#oferta" },
     "process": { "name": "Nasıl Çalışır", "link": "#proces" },
     "testimonials": { "name": "Hasta Hikayeleri", "link": "#opinie" },
-    "faq": { "name": "Sık Sorulan Sorular", "link": "#pytania" }
+    "faq": { "name": "Sorular", "link": "#pytania" }
   },
   "home": {
     "hero": {
       "rating": "Google Yorumları",
-      "title": "Bozuk protez mi? 90 dakikada hızlı onarım.",
-      "description": "Acil protez hizmeti — protezinizi bugün onarın, garantili. Günlük keyiflerinize hızla geri dönün.",
+      "title": "Kırık protez mi? 90 dk’da hazır.",
+      "description": "Acil protez hizmeti — bugün onar, garantili. Günlük hayatına hızlı dön.",
       "badges": {
         "certified": "Sertifikalı laboratuvar",
-        "open": "Varşova’da 7/24 açık",
+        "open": "7/24 açık, İstanbul",
         "experience": "yıllık deneyim"
       }
     },
     "offer": {
-      "title": "Bizden Neler Bekleyebilirsiniz",
+      "title": "Bizden Ne Alırsın",
       "benefits": {
         "b1": {
           "title": "Hızlı Onarım",
-          "desc": "Proteziniz bugün onarılır — 90 dakikadan kısa sürede, tatiller, iş toplantıları veya akşam etkinlikleri için ideal."
+          "desc": "Protezin bugün hazır — 90 dk’dan kısa, tatil ve iş toplantıları için ideal."
         },
         "b2": {
-          "title": "Uyum Garantisi",
-          "desc": "Protezinizin mükemmel uyumunu garanti ediyoruz — en yüksek kalite onarımlar."
+          "title": "Mükemmel Uyum",
+          "desc": "Protezin tam oturur — en yüksek kalite garantili."
         },
         "b3": {
-          "title": "Sertifikalı Uzmanlar",
-          "desc": "2004’ten beri laboratuvarımız her tür protezi onarıyor — basitten en karmaşık vakalara kadar."
+          "title": "Uzmanlar",
+          "desc": "2004’ten beri her tip protezi onarıyoruz — basitten en karmaşığa."
         }
       }
     },
     "process": {
       "title": "Nasıl Çalışır",
-      "subtitle": "Proteziniz 3 basit adımda hazır",
+      "subtitle": "3 Basit Adımda Protezin Hazır",
       "process": {
         "step1": {
           "title": "Ara",
-          "desc": "Ne olduğunu bize anlatın veya fotoğraf gönderin — hızlıca değerlendirip randevu ayarlayacağız."
+          "desc": "Durumu anlat veya fotoğraf gönder — hızlıca değerlendirip randevu ayarla."
         },
         "step2": {
-          "title": "Protezi Getir",
-          "desc": "Laboratuvarımıza teslim edin — uzmanlarımız titizlikle değerlendirip onaracak."
+          "title": "Getir",
+          "desc": "Laboratuvara teslim et — uzmanlar hızlı ve hassas onarır."
         },
         "step3": {
-          "title": "Aynı Gün Al",
-          "desc": "Proteziniz 90 dakikadan kısa sürede hazır — hızlı, hassas ve uyum garantili."
+          "title": "Al",
+          "desc": "Protezin 90 dk’dan kısa sürede hazır — hızlı, garantili."
         }
       }
     },
     "testimonials": {
-      "kicker": "Hastalarımızın Söyledikleri",
+      "kicker": "Hastalar Ne Diyor",
       "title": "Google Yorumları"
     },
     "faq": {
-      "kicker": "En Sık Sorulan Sorular",
-      "title": "Sorularınız mı var? Yanıtlamaktan mutluluk duyarız",
+      "kicker": "Sık Sorulan Sorular",
+      "title": "Sorun mu var? Hemen cevaplayalım",
       "questions": {
         "q1": {
           "question": "Protezim ne kadar hızlı onarılır?",
-          "answer": "Çoğu onarım aynı gün yapılır, genellikle protezin tesliminden itibaren 90 dakikadan kısa sürede."
+          "answer": "Çoğu onarım aynı gün, genellikle 90 dk’dan kısa sürede."
         },
         "q2": {
-          "question": "Randevu almam gerekiyor mu?",
-          "answer": "Evet. 7/24 hizmet vermemize rağmen, gelmeden önce lütfen bizi arayın."
+          "question": "Randevu gerekli mi?",
+          "answer": "Evet, 7/24 hizmette olsak da önce araman iyi olur."
         },
         "q3": {
-          "question": "Protez onarımı ne kadar tutar?",
-          "answer": "Bireysel fiyat bilgisi için lütfen telefonla iletişime geçin — tam maliyeti ve aynı gün onarım uygunluğunu size bildireceğiz."
+          "question": "Ücret ne kadar?",
+          "answer": "Tam fiyat ve aynı gün müsaitlik için bizi ara."
         },
         "q4": {
-          "question": "Tatillerde çalışıyor musunuz?",
-          "answer": "Tatillerde onarım mümkündür, ancak sınırlı olabilir. Lütfen önceden arayarak randevu teyit edin."
+          "question": "Tatilde çalışıyor musunuz?",
+          "answer": "Evet ama sınırlı. Önceden arayıp teyit et."
         },
         "q5": {
-          "question": "Aradım ama ulaşamadım?",
-          "answer": "7/24 hizmetinizdeyiz, ancak bazen yoğun olabiliriz. Lütfen mesaj bırakın veya tekrar deneyin — mümkün olan en kısa sürede geri döneceğiz."
+          "question": "Ulaşamadım?",
+          "answer": "7/24 buradayız ama yoğun olabiliriz. Mesaj bırak veya tekrar dene."
         }
       }
     },
     "cta": {
-      "title": "Yardıma mı ihtiyacınız var?",
-      "description": "Daha fazla bilgi almak, randevu ayarlamak veya protezinizi teslim etmek ister misiniz? Bizi arayın — 7/24 hizmet veriyoruz ve memnuniyetle yardımcı oluruz."
+      "title": "Yardıma mı ihtiyacın var?",
+      "description": "Daha fazla bilgi, randevu veya protez teslimi için ara — 7/24 hizmetteyiz."
     }
   }
 }

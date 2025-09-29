@@ -13,6 +13,29 @@ import { useState } from 'react';
 
 // https://nucleoapp.com/svg-flag-icons
 
+function UkraineFlag() {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='32'
+      height='32'
+      viewBox='0 0 32 32'
+    >
+      <path fill='#2455b2' d='M31 8a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v9h30z'></path>
+      <path fill='#f9da49' d='M5 28h22a4 4 0 0 0 4-4v-8H1v8a4 4 0 0 0 4 4'></path>
+      <path
+        d='M5 28h22a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v16a4 4 0 0 0 4 4M2 8c0-1.654 1.346-3 3-3h22c1.654 0 3 1.346 3 3v16c0 1.654-1.346 3-3 3H5c-1.654 0-3-1.346-3-3z'
+        opacity='0.15'
+      ></path>
+      <path
+        fill='#fff'
+        d='M27 5H5a3 3 0 0 0-3 3v1a3 3 0 0 1 3-3h22a3 3 0 0 1 3 3V8a3 3 0 0 0-3-3'
+        opacity='0.2'
+      ></path>
+    </svg>
+  )
+}
+
 function EnglandFlag() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
@@ -104,13 +127,14 @@ function LanguageSwitcher() {
     }
     setOpen(false);
   };
-
   const tra = [
     { name: "Polski", display: "PL", abbriviation: "pl", image: PolandFlag },
     { name: "Italiano", display: "IT", abbriviation: "it", image: ItalyFlag },
     { name: "British", display: "UK", abbriviation: "en", image: EnglandFlag },
     { name: "Türkçe", display: "TR", abbriviation: "tr", image: TurkeyFlag },
+    { name: "Українська", display: "UA", abbriviation: "ua", image: UkraineFlag },
   ];
+
 
 
   const currentLang = tra.find(l => l.abbriviation === locale);

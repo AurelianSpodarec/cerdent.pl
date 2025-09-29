@@ -1,7 +1,6 @@
 'use client'
 
 import Link from "next/link";
-import { WebsiteRoutes } from "@/routes";
 import { useTranslations } from "next-intl";
 
 import { configBrand } from "@/config/brand.";
@@ -16,7 +15,7 @@ function HeaderDesktop() {
 
   return (
     <div className="w-full items-center justify-between h-full pl-2 lg:pl-4  pr-2 flex">
-      <Link href={WebsiteRoutes.ROOT} className="flex flex-col">
+      <Link href="/" className="flex flex-col">
         <div className="flex flex-row items-center">
           <Logo />
           <span className="font-bold font-logo text-3xl lg:text-4xl text-black">

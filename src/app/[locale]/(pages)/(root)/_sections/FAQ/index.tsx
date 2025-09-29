@@ -23,6 +23,7 @@ function SectionFAQ() {
         <SectionHeader
           kicker={t("kicker")}
           title={t("title")}
+          className="max-w-[550px] mx-auto"
         />
 
         <AccordionBasic type="single" data={faqItems} />

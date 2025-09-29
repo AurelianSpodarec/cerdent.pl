@@ -1,10 +1,11 @@
 'use client'
 
 import { useEffect, useState } from "react";
-import HeaderDesktop from "./Desktop";
-import Container from "@/components/_layout/Container";
+import { useLocale } from "next-intl";
 
-// Hook to detect scroll past header
+import HeaderDesktop from "./Desktop";
+import Container, { ContainerSize } from "@/components/_layout/Container";
+
 function useScrollHeaderBorder(headerHeight: number) {
   const [scrolled, setScrolled] = useState(false);
 
@@ -21,7 +22,6 @@ function useScrollHeaderBorder(headerHeight: number) {
       }
     };
 
-    // Check immediately on mount
     setScrolled(window.scrollY > headerHeight);
 
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -31,20 +31,25 @@ function useScrollHeaderBorder(headerHeight: number) {
   return scrolled;
 }
 
-
-export default function WebHeader() {
+function WebHeader() {
   const HEADER_HEIGHT = 60;
   const scrolled = useScrollHeaderBorder(HEADER_HEIGHT);
 
+  const locale = useLocale();
+  const localeContainerSize: Partial<Record<string, ContainerSize>> = {
+    en: "normal",
+    pl: "wide",
+  };
+
   return (
     <header className={`fixed top-0 left-0 right-0 z-40 `}>
-      <Container size="wide">
+      <Container size={localeContainerSize[locale] ?? "wide"}>
         <div className={`transition-all duration-300
         backdrop-blur-2xl
         h-[60px] my-2
         bg-white/70
         rounded-lg
-          ${scrolled ? "border border-[#dcdcdc]/70 my-5 header-shadow" : "border-transparent"}
+          ${scrolled ? "border border-[#dcdcdc]/70 mt-2 lg:my-5 header-shadow" : "border-transparent"}
         `}>
           <div className="flex items-center h-full">
             <HeaderDesktop />
@@ -54,3 +59,5 @@ export default function WebHeader() {
     </header>
   );
 }
+
+export default WebHeader

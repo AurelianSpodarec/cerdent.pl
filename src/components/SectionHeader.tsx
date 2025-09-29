@@ -13,7 +13,7 @@ function SectionHeader({ className, kicker, title, description, align = "center"
   const alignClass = align === "center" ? "text-center" : "text-left";
 
   return (
-    <header className={`${alignClass} ${className} mb-10 lg:mb-20`}>
+    <header className={`${alignClass} ${className} mb-10 lg:mb-20 mx-auto`}>
       {kicker && <span>{kicker}</span>}
       <h2>{title}</h2>
       {description && <p>{description}</p>}

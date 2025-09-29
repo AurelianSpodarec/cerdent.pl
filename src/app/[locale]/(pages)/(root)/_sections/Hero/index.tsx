@@ -48,7 +48,7 @@ function SectionHero() {
             </div>
 
             <h1 className={`font-semibold mx-auto mb-4 ${localeTitleStyles[locale]}`}>{t('title')}</h1>
-            <p className="text-lg max-w-[700px] mx-auto">{t('description')}</p>
+            <p className="text-md lg:text-lg max-w-[700px] mx-auto">{t('description')}</p>
           </div>
 
           <ul className="flex flex-col lg:flex-row space-y-2 lg:space-y-0 items-center align-middle py-6 space-x-4 text-sm">

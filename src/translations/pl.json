@@ -18,7 +18,7 @@
     "hero": {
       "rating": "opinie w Google",
       "title": "Uszkodzona proteza? Naprawa w mniej niż 90 minut.",
-      "description": "Techniczny laboratorium protetyczne — naprawa uszkodzonej protezy jeszcze dziś, gwarantowane. Jedz, uśmiechaj się i ciesz się dniem już dziś.",
+      "description": "Pogotowie protetyczne — naprawa uszkodzonej protezy jeszcze dziś, gwarantowane. Wracaj do swoich codziennych przyjemności.",
       "badges": {
         "certified": "Certyfikowane laboratorium",
         "open": "Otwarte 24/7 w Warszawie",
@@ -26,7 +26,7 @@
       }
     },
     "offer": {
-      "title": "Dlaczego warto wybrać CerDent?",
+      "title": "Co możesz od nas oczekiwać",
       "benefits": {
         "b1": {
           "title": "Szybka Naprawa",
@@ -65,8 +65,8 @@
       "title": "Opinie z Googli"
     },
     "faq": {
-      "kicker": "Pytania",
-      "title": "Masz pytania? Mamy odpowiedzi",
+      "kicker": "Najczęstsze pytania",
+      "title": "Masz pytania? Chętnie odpowiemy",
       "questions": {
         "q1": {
           "question": "Jak szybko można naprawić moją protezę?",
@@ -91,7 +91,7 @@
       }
     },
     "cta": {
-      "title": "Masz pytania?",
+      "title": "Potrzebujesz pomocy?",
       "description": "Chcesz dowiedzieć się więcej, umówić wizytę lub dostarczyć protezę? Zadzwoń do nas — działamy 24/7 i chętnie pomożemy."
     }
   }

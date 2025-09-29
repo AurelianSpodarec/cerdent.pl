@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-type ContainerSize = 'fluid' | 'tiny' | "small" | "normal" | "wide" | "wider"
+export type ContainerSize = 'fluid' | 'tiny' | "small" | "normal" | "wide" | "wider"
 
 interface IContainerProps {
   id?: string;

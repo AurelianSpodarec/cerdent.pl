@@ -2,6 +2,7 @@ export const configBrand = {
   name: "CerDent",
   tagline: "Building the future",
   website: "https://cerdent.pl",
+  established: "1995",
   email: {
     main: "info@cerdent.pl",
   },

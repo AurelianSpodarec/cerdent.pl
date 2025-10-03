@@ -51,7 +51,7 @@ function WebFooter() {
         </div>
         <div className="flex items-center justify-between">
           <div className="space-x-2">
-            <span className="text-sm">&copy; CerDent 2004-{new Date().getFullYear()}. {t("copyright")}</span>
+            <span className="text-sm">&copy; {configBrand.name} {configBrand.established}-{new Date().getFullYear()}. {t("copyright")}</span>
             {/* VAT number (NIP): */}
             <span>NIP: 612-149-42-57</span>
           </div>

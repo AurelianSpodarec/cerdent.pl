@@ -26,14 +26,15 @@ async function RootLayout({ children, params }: Readonly<{ children: React.React
   return (
     <html lang="en">
       <body className={`antialiased font-body ${rajdhani.variable} ${montserrat.variable} ${georgia.variable}`}>
-        <NextIntlClientProvider>
+        Coming Soon | Wracamy Wkrotce
+        {/* <NextIntlClientProvider>
           <InitRoutes />
           <WebHeader />
           <main>
             {children}
           </main>
           <WebFooter />
-        </NextIntlClientProvider>
+        </NextIntlClientProvider> */}
       </body>
 
       <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_TAG!} />
